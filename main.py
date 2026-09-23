@@ -243,11 +243,7 @@ def cmd_legendas(args, cfg):
     _rodar_legendas(timeline, cfg, saida_dir)
 
 
-def cmd_montagem(args, cfg):
-    cenas = _carregar_cenas_selecionadas(cfg, args.cenas)
-    saida_dir = configmod.caminho(cfg, "saida")
-    tmp_dir = configmod.caminho(cfg, "cache") / "tmp_montagem"
-
+def _remontar(cenas, cfg, saida_dir, tmp_dir, rotulo):
     timeline_path = saida_dir / "timeline.json"
     meta_path = saida_dir / "narracao_meta.json"
     imagens_path = saida_dir / "imagens_resultado.json"
@@ -265,12 +261,29 @@ def cmd_montagem(args, cfg):
     numeros_timeline = {e["numero"] for e in timeline}
     if numeros_pedidos != numeros_timeline:
         print(
-            "ERRO: --cenas não bate com o que está em saida/timeline.json — rode `narracao`/`imagens` de novo "
-            "com a mesma seleção, ou use `python main.py tudo`."
+            f"ERRO ({rotulo}): --cenas não bate com o que está em {timeline_path} — rode `narracao`/`imagens` de "
+            "novo com a mesma seleção, ou use `python main.py tudo`."
         )
         sys.exit(1)
 
+    print(f"\n=== {rotulo} ===")
     _rodar_montagem(cenas, cfg, timeline, resultados_imagens, duracao_total, ass_path, saida_dir, tmp_dir)
+
+
+def cmd_montagem(args, cfg):
+    cenas = _carregar_cenas_selecionadas(cfg, args.cenas)
+    saida_dir = configmod.caminho(cfg, "saida")
+    tmp_dir = configmod.caminho(cfg, "cache") / "tmp_montagem"
+    _remontar(cenas, cfg, saida_dir, tmp_dir, "Vídeo normal")
+
+    # remonta o Short também, se ele já tiver sido gerado antes (senão essa
+    # pasta nem existe ainda) — sem isso, um `montagem` avulso (ex.: só pra
+    # trocar a trilha) deixava o Short desatualizado, com a versão antiga.
+    saida_curto = saida_dir / "curto"
+    if (saida_curto / "timeline.json").exists():
+        cenas_curto = [c for c in cenas if c.get("curto")]
+        tmp_curto = configmod.caminho(cfg, "cache") / "tmp_montagem_curto"
+        _remontar(cenas_curto, cfg, saida_curto, tmp_curto, "Short")
 
 
 def cmd_tudo(args, cfg):
