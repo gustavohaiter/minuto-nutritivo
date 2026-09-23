@@ -1,0 +1,11 @@
+@echo off
+cd /d %~dp0..
+echo Baixando 3 opcoes de logo/avatar do canal...
+
+curl -sS -L -f -o identidade\logo_opcao_1_relogio_laranja.png "https://cdn.openart.ai/openart-ai/production/2026-09/create-image/pprswCt1A6MWi3BBxPwN/39ad1795118d692171a6d38e1097359a-f6336f57-7287-4b88-a68f-b14fbbf9e0d5_1790184778775_f868d714.png"
+curl -sS -L -f -o identidade\logo_opcao_2_cronometro_folha.png "https://cdn.openart.ai/openart-ai/production/2026-09/create-image/pprswCt1A6MWi3BBxPwN/0b784133f5fd6afffe2870cf9a81005f-9f5e3d9f-fef4-47eb-99b1-505ddcb48fb9_1790184784187_5c859b54.png"
+curl -sS -L -f -o identidade\logo_opcao_3_talheres_prato.png "https://cdn.openart.ai/openart-ai/production/2026-09/create-image/pprswCt1A6MWi3BBxPwN/15154dbe94f6776b3ca00a091c836269-96c79959-8ada-4b66-af06-66c8b955d364_1790184791082_88ffb92a.png"
+
+echo.
+echo Pronto! Abra identidade\ e escolha a opcao que mais gostou.
+echo Confira os arquivos e depois rode: git add -A ^&^& git commit -m "Logos do canal" ^&^& git push

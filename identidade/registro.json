@@ -1,0 +1,33 @@
+{
+  "canal": {
+    "nome": "Minuto Nutritivo",
+    "tom": "leve, energético, educativo — benefícios de alimentos em vídeos curtos",
+    "cores": "verde #3A9157 (saúde/natural) + laranja #E69138 (energia/apetite)",
+    "fonte_titulo": "DejaVu Sans Bold (moderna, arredondada, amigável)"
+  },
+  "logo_avatar": {
+    "status": "3 opções geradas, aguardando escolha e download manual (CDN da OpenArt bloqueado neste sandbox)",
+    "opcoes": [
+      {
+        "id": "opcao_1_relogio_laranja",
+        "descricao": "Fatia de laranja estilizada como relógio, ponteiros simples",
+        "url": "https://cdn.openart.ai/openart-ai/production/2026-09/create-image/pprswCt1A6MWi3BBxPwN/39ad1795118d692171a6d38e1097359a-f6336f57-7287-4b88-a68f-b14fbbf9e0d5_1790184778775_f868d714.png",
+        "arquivo_local": "identidade/logo_opcao_1_relogio_laranja.png"
+      },
+      {
+        "id": "opcao_2_cronometro_folha",
+        "descricao": "Cronômetro com uma folha brotando no lugar do botão",
+        "url": "https://cdn.openart.ai/openart-ai/production/2026-09/create-image/pprswCt1A6MWi3BBxPwN/0b784133f5fd6afffe2870cf9a81005f-9f5e3d9f-fef4-47eb-99b1-505ddcb48fb9_1790184784187_5c859b54.png",
+        "arquivo_local": "identidade/logo_opcao_2_cronometro_folha.png"
+      },
+      {
+        "id": "opcao_3_talheres_prato",
+        "descricao": "Garfo e colher cruzados como ponteiros de relógio sobre um prato",
+        "url": "https://cdn.openart.ai/openart-ai/production/2026-09/create-image/pprswCt1A6MWi3BBxPwN/15154dbe94f6776b3ca00a091c836269-96c79959-8ada-4b66-af06-66c8b955d364_1790184791082_88ffb92a.png",
+        "arquivo_local": "identidade/logo_opcao_3_talheres_prato.png"
+      }
+    ],
+    "modelo": "kling-3-omni",
+    "resolucao": "2k (2048x2048)"
+  }
+}
