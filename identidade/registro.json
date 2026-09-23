@@ -6,7 +6,13 @@
     "fonte_titulo": "DejaVu Sans Bold (moderna, arredondada, amigável)"
   },
   "logo_avatar": {
-    "status": "3 opções geradas, aguardando escolha e download manual (CDN da OpenArt bloqueado neste sandbox)",
+    "status": "pronto — logo_escolhido.png recebida direto do usuário, avatar_800x800.png e banner_2560x1440.png gerados",
+    "escolhida": "opcao_1_relogio_laranja",
+    "arquivos_finais": {
+      "logo_fonte": "identidade/logo_escolhido.png",
+      "avatar_youtube": "identidade/avatar_800x800.png",
+      "banner_youtube": "identidade/banner_2560x1440.png"
+    },
     "opcoes": [
       {
         "id": "opcao_1_relogio_laranja",
