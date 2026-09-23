@@ -16,6 +16,7 @@ Exemplos:
 from __future__ import annotations
 
 import argparse
+import copy
 import json
 import sys
 from pathlib import Path
@@ -48,6 +49,18 @@ def _carregar_dados_roteiro(cfg):
 def _carregar_cenas_selecionadas(cfg, selecao):
     dados = _carregar_dados_roteiro(cfg)
     return parsermod.filtrar_cenas(dados["cenas"], selecao)
+
+
+def _cfg_para_curto(cfg):
+    """Cópia do cfg com video/legendas substituídos pelas chaves de shorts.* —
+    o Short é vertical e tem legenda mais compacta; o resto (voz, imagens,
+    trilha etc.) continua igual ao vídeo normal."""
+    cfg_curto = copy.deepcopy(cfg)
+    overrides = cfg.get("shorts", {})
+    for secao in ("video", "legendas"):
+        if secao in overrides:
+            cfg_curto[secao].update(overrides[secao])
+    return cfg_curto
 
 
 def cmd_parse(args, cfg):
@@ -160,7 +173,11 @@ def _rodar_imagens(cenas, cfg, forcar, saida_dir):
     for cena in cenas:
         r = imagesmod.obter_imagem_para_cena(cena, cfg, manual_dir, cache_dir, forcar=forcar)
         if r.get("caminho") and cena.get("aviso_tela"):
-            destino_aviso = cache_dir / f"{cena['id']}_aviso.png"
+            largura, altura = cfg["video"]["largura"], cfg["video"]["altura"]
+            # inclui as dimensões no nome — normal (horizontal) e Short (vertical)
+            # cortam a imagem em proporções diferentes e não podem reaproveitar o
+            # mesmo arquivo em cache
+            destino_aviso = cache_dir / f"{cena['id']}_aviso_{largura}x{altura}.png"
             if forcar or not destino_aviso.exists():
                 avisosmod.aplicar_aviso_tela(Path(r["caminho"]), cena["aviso_tela"], cfg, destino_aviso)
             r = {**r, "caminho": destino_aviso}
@@ -283,7 +300,7 @@ def cmd_montagem(args, cfg):
     if (saida_curto / "timeline.json").exists():
         cenas_curto = [c for c in cenas if c.get("curto")]
         tmp_curto = configmod.caminho(cfg, "cache") / "tmp_montagem_curto"
-        _remontar(cenas_curto, cfg, saida_curto, tmp_curto, "Short")
+        _remontar(cenas_curto, _cfg_para_curto(cfg), saida_curto, tmp_curto, "Short")
 
 
 def cmd_tudo(args, cfg):
@@ -300,7 +317,9 @@ def cmd_tudo(args, cfg):
 
     saida_curto = saida_dir / "curto"
     tmp_curto = configmod.caminho(cfg, "cache") / "tmp_montagem_curto"
-    _, duracao_curto = _gerar_saida_completa(cenas_curto, cfg, args.forcar, saida_curto, tmp_curto, "Short")
+    _, duracao_curto = _gerar_saida_completa(
+        cenas_curto, _cfg_para_curto(cfg), args.forcar, saida_curto, tmp_curto, "Short"
+    )
 
     limite = cfg["shorts"]["duracao_maxima_segundos"]
     if duracao_curto > limite:

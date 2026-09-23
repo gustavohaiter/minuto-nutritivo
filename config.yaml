@@ -20,8 +20,8 @@ voz:
     pitch: "+0Hz"
 
 video:
-  largura: 1080             # vertical (9:16) — funciona nativo como vídeo normal no mobile
-  altura: 1920               # e como fonte pra cortar Shorts do mesmo material
+  largura: 1920             # horizontal — o vídeo "normal" precisa ser 16:9 (ou >3min) pra
+  altura: 1080               # não cair automaticamente no Shorts junto com o "curto"
   fps: 30
   transicao_segundos: 0.4
   ken_burns:
@@ -35,12 +35,12 @@ audio:
   ducking_threshold_db: -30
 
 legendas:
-  max_caracteres_por_linha: 24   # menor que o padrão 40 — tela mais estreita (vertical)
+  max_caracteres_por_linha: 40
   max_linhas: 2
   duracao_min_segundos: 1.0
   duracao_max_segundos: 5.0
   fonte: "Arial"
-  tamanho_fonte: 56              # maior — vídeo curto, visto de perto no celular
+  tamanho_fonte: 46
   cor_primaria: "&H00FFFFFF"     # branco (formato ASS: &HAABBGGRR)
   cor_borda: "&H00000000"        # preto
   borda_espessura: 3
@@ -49,13 +49,20 @@ pausas:
   duracao_segundos: 0.6          # pausas mais curtas — ritmo mais ágil que o true crime
 
 imagens:
-  orientacao: "portrait"         # busca fotos verticais direto (Pexels: portrait / Pixabay: vertical)
-  largura_minima: 1080
-  fonte_principal: "pexels"
+  orientacao: "landscape"        # foto horizontal corta bem tanto pro vídeo normal quanto
+  largura_minima: 1600           # pro Short vertical (o contrário — cortar vertical em
+  fonte_principal: "pexels"      # horizontal — costuma perder cabeça/pé do assunto da foto)
   fonte_fallback: "pixabay"
 
 shorts:
   duracao_maxima_segundos: 60    # limite do YouTube Shorts — avisa se as cenas "curto: sim" passarem disso
+  # essas chaves substituem as de video/legendas só na hora de montar o Short
+  video:
+    largura: 1080
+    altura: 1920
+  legendas:
+    max_caracteres_por_linha: 24
+    tamanho_fonte: 56
 
 caminhos:
   roteiro: "roteiro.md"

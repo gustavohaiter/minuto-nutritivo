@@ -1,8 +1,15 @@
 # Minuto Nutritivo — pipeline roteiro → vídeo
 
 Gera automaticamente, a partir de um `roteiro.md`, **dois vídeos**:
-- `saida/video_final.mp4` — vídeo normal (vertical 9:16, 1-2 min)
-- `saida/curto/video_final.mp4` — Short (≤60s, feito das cenas marcadas `curto: sim`)
+- `saida/video_final.mp4` — vídeo normal (**horizontal 16:9**, 1920x1080, 1-2 min)
+- `saida/curto/video_final.mp4` — Short (**vertical 9:16**, 1080x1920, ≤60s, feito das cenas marcadas `curto: sim`)
+
+Os dois são cortados automaticamente da mesma foto (buscada em landscape, que
+se adapta bem tanto pro corte horizontal quanto pro vertical). O vídeo normal
+é horizontal de propósito: o YouTube classifica qualquer vídeo vertical de até
+3 minutos como Short automaticamente, então só um vídeo genuinamente 16:9 fica
+de fora dessa classificação e aparece no feed/busca normal — o Short cobre a
+aba de Shorts.
 
 Reaproveita a mesma arquitetura validada no canal Dossiê Obscuro: narração com
 timestamp por palavra (ElevenLabs ou edge-tts grátis), busca de imagem
@@ -41,10 +48,12 @@ Tipo: educativo
 ```
 
 - `narracao`: texto exato que vira fala.
-- `imagem_busca`: termo em inglês pra achar foto (já busca vertical automaticamente).
+- `imagem_busca`: termo em inglês pra achar foto (busca landscape automaticamente).
 - `imagem_manual: sim`: usa `imagens_manuais/cena_XX.png` em vez de buscar.
 - `curto: sim`: essa cena entra no Short também. Marque as cenas mais fortes —
   juntas não podem passar de 60s (o pipeline avisa se passar).
+- `aviso_tela: texto`: queima uma faixa vermelha no topo da imagem dessa cena
+  com o texto (pra avisos de saúde/segurança). Opcional.
 - `[PAUSA]`: meio segundo de silêncio antes da próxima cena.
 
 ## 3. Rodando
@@ -63,9 +72,14 @@ Use `--forcar` em `narracao`/`imagens`/`tudo` pra ignorar cache e regerar do zer
 
 ## 4. Saída
 
-Tudo em `saida/` (vídeo normal) e `saida/curto/` (Short):
-- `video_final.mp4` — 1080x1920, 30fps, narração + trilha + legenda queimada.
+Tudo em `saida/` (vídeo normal, 1920x1080) e `saida/curto/` (Short, 1080x1920):
+- `video_final.mp4` — 30fps, narração + trilha + legenda queimada.
 - `legendas.srt`, `creditos.txt`, `descricao_youtube.txt`, `thumbnail.png`.
+
+As dimensões e o tamanho de legenda do Short vêm de `shorts.video`/
+`shorts.legendas` em `config.yaml`, que substituem `video`/`legendas` só na
+hora de montar o Short — o resto (voz, trilha, orientação de busca de imagem)
+é igual nos dois.
 
 ## 5. Reaproveitando pra outro vídeo
 
