@@ -22,6 +22,7 @@ class Cena:
     imagem_manual: bool = False
     curto: bool = False
     pausa_apos: bool = False
+    aviso_tela: str = ""
     tipo: str = "normal"
 
 
@@ -59,6 +60,8 @@ def parse_roteiro(caminho_md: str | Path) -> dict[str, Any]:
                 cena.imagem_manual = valor.lower().startswith("sim")
             elif campo == "curto":
                 cena.curto = valor.lower().startswith("sim")
+            elif campo == "aviso_tela":
+                cena.aviso_tela = valor
         cenas.append(cena)
 
     return {

@@ -23,6 +23,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent / "src"))
 
 import assembly as assemblymod  # noqa: E402
+import avisos as avisosmod  # noqa: E402
 import config as configmod  # noqa: E402
 import images as imagesmod  # noqa: E402
 import narration as narrationmod  # noqa: E402
@@ -158,6 +159,11 @@ def _rodar_imagens(cenas, cfg, forcar, saida_dir):
     avisos = []
     for cena in cenas:
         r = imagesmod.obter_imagem_para_cena(cena, cfg, manual_dir, cache_dir, forcar=forcar)
+        if r.get("caminho") and cena.get("aviso_tela"):
+            destino_aviso = cache_dir / f"{cena['id']}_aviso.png"
+            if forcar or not destino_aviso.exists():
+                avisosmod.aplicar_aviso_tela(Path(r["caminho"]), cena["aviso_tela"], cfg, destino_aviso)
+            r = {**r, "caminho": destino_aviso}
         resultados[cena["numero"]] = r
         if r.get("aviso"):
             avisos.append(r["aviso"])
