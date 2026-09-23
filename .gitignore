@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+cache/*
+saida/*
+cenas.json
+
+!cache/.gitkeep
+!saida/.gitkeep

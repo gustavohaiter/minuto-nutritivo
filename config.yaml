@@ -1,0 +1,67 @@
+# Configuração do pipeline roteiro -> vídeo (Minuto Nutritivo)
+# Ajuste os valores aqui entre um vídeo e outro; as chaves de API ficam no .env
+
+voz:
+  motor: "edge-tts"        # "elevenlabs" (paga, mais natural) ou "edge-tts" (100% grátis, sem chave)
+
+  elevenlabs:
+    voice_id: ""
+    model_id: "eleven_multilingual_v2"
+    stability: 0.5
+    similarity_boost: 0.75
+    style: 0.0
+    use_speaker_boost: true
+    output_format: "mp3_44100_128"
+
+  edge_tts:
+    voice: "pt-BR-FranciscaNeural"   # voz feminina, tom mais leve (veja: python main.py vozes)
+    rate: "+8%"                       # um pouco mais rápido = mais energético
+    volume: "+0%"
+    pitch: "+0Hz"
+
+video:
+  largura: 1080             # vertical (9:16) — funciona nativo como vídeo normal no mobile
+  altura: 1920               # e como fonte pra cortar Shorts do mesmo material
+  fps: 30
+  transicao_segundos: 0.4
+  ken_burns:
+    zoom_maximo: 1.15
+    velocidade: 0.0006
+
+audio:
+  volume_trilha_db: -8
+  ducking: true
+  ducking_ratio: 8
+  ducking_threshold_db: -30
+
+legendas:
+  max_caracteres_por_linha: 24   # menor que o padrão 40 — tela mais estreita (vertical)
+  max_linhas: 2
+  duracao_min_segundos: 1.0
+  duracao_max_segundos: 5.0
+  fonte: "Arial"
+  tamanho_fonte: 56              # maior — vídeo curto, visto de perto no celular
+  cor_primaria: "&H00FFFFFF"     # branco (formato ASS: &HAABBGGRR)
+  cor_borda: "&H00000000"        # preto
+  borda_espessura: 3
+
+pausas:
+  duracao_segundos: 0.6          # pausas mais curtas — ritmo mais ágil que o true crime
+
+imagens:
+  orientacao: "portrait"         # busca fotos verticais direto (Pexels: portrait / Pixabay: vertical)
+  largura_minima: 1080
+  fonte_principal: "pexels"
+  fonte_fallback: "pixabay"
+
+shorts:
+  duracao_maxima_segundos: 60    # limite do YouTube Shorts — avisa se as cenas "curto: sim" passarem disso
+
+caminhos:
+  roteiro: "roteiro.md"
+  cenas_json: "cenas.json"
+  imagens_manuais: "imagens_manuais"
+  assets: "assets"
+  trilha: "trilha.mp3"
+  cache: "cache"
+  saida: "saida"
