@@ -100,7 +100,13 @@ Use `--forcar` em `narracao`/`imagens`/`tudo` pra ignorar cache e regerar do zer
 
 Tudo em `saida/` (vídeo normal, 1920x1080) e `saida/curto/` (Short, 1080x1920):
 - `video_final.mp4` — 30fps, narração + trilha + legenda queimada.
-- `legendas.srt`, `creditos.txt`, `descricao_youtube.txt`, `thumbnail.png`.
+- `legendas.srt`, `creditos.txt`, `thumbnail.png`.
+- `descricao_youtube.txt` — título, descrição, hashtags e **tags sugeridas**
+  (pra colar na caixa "Tags" do YouTube Studio, em Opções avançadas — é
+  diferente das hashtags que vão no corpo da descrição). As tags específicas
+  do vídeo são extraídas automaticamente do título (`OS BENEFÍCIOS DA
+  BETERRABA` → `beterraba`, `benefícios da beterraba`, ...), somadas a um
+  conjunto fixo do canal.
 
 As dimensões e o tamanho de legenda do Short vêm de `shorts.video`/
 `shorts.legendas` em `config.yaml`, que substituem `video`/`legendas` só na

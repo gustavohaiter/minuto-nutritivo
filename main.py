@@ -20,6 +20,7 @@ from __future__ import annotations
 import argparse
 import copy
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -396,9 +397,24 @@ def cmd_miniatura(args, cfg):
         sys.exit(1)
 
 
+TAGS_FIXAS = ["minuto nutritivo", "nutrição", "alimentação saudável", "vida saudável", "dicas de saúde"]
+
+
+def _gerar_tags(titulo: str) -> list[str]:
+    # o padrão de título do canal é "[N] BENEFÍCIOS D[O/A/OS/AS] <alimento>" —
+    # extrai o nome do alimento pra gerar tags específicas do vídeo, além
+    # das fixas do canal
+    m = re.search(r"(?i)benefícios\s+(d[oa]s?)\s+(.+)$", titulo.strip())
+    if not m:
+        return [titulo.lower(), *TAGS_FIXAS]
+    prep, alimento = m.group(1).lower(), m.group(2).strip().lower()
+    return [alimento, f"benefícios {prep} {alimento}", f"{alimento} benefícios", *TAGS_FIXAS]
+
+
 def _gerar_descricao(dados, cfg):
     titulo = dados["titulo"]
     resumo = " ".join(c["narracao"].strip() for c in dados["cenas"][:3])
+    tags = _gerar_tags(titulo)
 
     texto = f"""TÍTULO SUGERIDO:
 {titulo} | Minuto Nutritivo
@@ -412,6 +428,9 @@ Minuto Nutritivo — benefícios de alimentos em vídeos rápidos, toda semana.
 Se inscreva e ative o sininho.
 
 #nutricao #alimentacaosaudavel #minutonutritivo
+
+TAGS SUGERIDAS (cole na caixa "Tags" do YouTube Studio, em Opções avançadas):
+{", ".join(tags)}
 """.strip() + "\n"
 
     saida_dir = configmod.caminho(cfg, "saida")
