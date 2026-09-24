@@ -1,44 +1,39 @@
-# OS BENEFÍCIOS DO ALHO
+# OS BENEFÍCIOS DA BETERRABA
 Tipo: educativo
 
 ## Cena 01
-- narracao: Ele está em quase toda cozinha do Brasil, custa quase nada, e a ciência estuda ele há décadas. O alho é bem mais do que tempero.
-- imagem_busca: garlic bulbs rustic wooden table
+- narracao: Tem um alimento barato que atletas profissionais tomam antes de competir. E ele provavelmente está na feira perto da sua casa: a beterraba.
+- imagem_busca: fresh beetroot with leaves market
 - curto: sim
 
 ## Cena 02
-- narracao: Quando você amassa ou pica um dente de alho, ele libera a alicina, o composto responsável pelo cheiro forte e pela maior parte dos efeitos estudados. Por isso um detalhe importa: amasse o alho e espere uns 10 minutos antes de levar ao fogo. O calor imediato destrói parte da alicina.
-- imagem_busca: crushing garlic clove knife cutting board
+- narracao: O segredo dela está nos nitratos naturais. No corpo, eles viram óxido nítrico, uma substância que relaxa e alarga os vasos sanguíneos, melhorando o fluxo de sangue.
+- imagem_busca: blood vessels illustration 3d
 
 ## Cena 03
-- narracao: O benefício mais bem documentado é no coração. Estudos indicam que o consumo regular está associado a uma redução modesta da pressão arterial e a melhoras no colesterol, principalmente em quem já tem esses índices alterados.
-- imagem_busca: blood pressure monitor arm
+- narracao: É por isso que vários estudos apontam uma queda modesta na pressão arterial em quem consome suco de beterraba com regularidade.
+- imagem_busca: blood pressure monitor table
 - curto: sim
 
 ## Cena 04
-- narracao: Tem também o efeito sobre a imunidade. Algumas pesquisas sugerem que quem consome alho com frequência pega menos resfriados e se recupera um pouco mais rápido. Não é blindagem contra gripe, mas é um empurrãozinho.
-- imagem_busca: hot garlic soup bowl steam
+- narracao: E é também por isso que ela aparece no treino. Com mais oxigênio chegando aos músculos, a pesquisa mostra ganhos pequenos, mas reais, de resistência em exercícios de longa duração. Por isso o suco costuma ser tomado de duas a três horas antes.
+- imagem_busca: runner training outdoors morning
 
 ## Cena 05
-- narracao: Além disso, o alho é rico em antioxidantes, que ajudam o corpo a lidar com o desgaste natural das células ao longo dos anos.
-- imagem_busca: garlic cloves macro texture
+- narracao: Fora isso, a beterraba entrega folato, importante principalmente na gestação, fibras, que ajudam o intestino, e as betalaínas, os pigmentos que dão aquela cor forte e funcionam como antioxidantes.
+- imagem_busca: sliced beetroot macro deep red
 
 ## Cena 06
-- narracao: E quanto comer? Os estudos costumam trabalhar com um a dois dentes por dia. Nada de exagero: em excesso, o alho cru irrita o estômago.
-- imagem_busca: two garlic cloves on plate
-- curto: sim
+- narracao: Uma dica: não jogue as folhas fora. Elas são comestíveis e ricas em nutrientes, ótimas refogadas como couve.
+- imagem_busca: beet greens sauteed pan
 
 ## Cena 07
-- narracao: Um aviso importante: o alho tem efeito leve de afinar o sangue. Quem usa anticoagulante ou vai passar por cirurgia deve conversar com o médico antes de tomar suplementos.
-- imagem_busca: doctor talking to patient consultation
+- narracao: Dois avisos. Se a sua urina ficar rosada depois de comer beterraba, calma: isso é comum e inofensivo. Mas ela é rica em oxalatos, então quem tem histórico de pedra nos rins deve conversar com o médico antes de exagerar.
+- imagem_busca: doctor consultation patient talking
 - aviso_tela: Conteúdo informativo. Não substitui orientação médica.
-
-## Cena 08
-- narracao: Ou seja: aquele dente de alho que você joga na panela sem pensar trabalha bastante a seu favor. Amassa, espera dez minutinhos, e aproveita.
-- imagem_busca: garlic sizzling in pan olive oil
 - curto: sim
 
-## Cena 09
-- narracao: Gostou desse minuto? Se inscreve no canal e ativa o sininho pra não perder o próximo alimento.
-- tipo: cta
+## Cena 08
+- narracao: Crua no ralo da salada, assada no forno ou batida no suco: é das formas mais baratas de cuidar da circulação. Aproveita.
+- imagem_busca: roasted beetroot salad plate
 - curto: sim

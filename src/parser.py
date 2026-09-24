@@ -12,6 +12,10 @@ CENA_RE = re.compile(r"^##\s*Cena\s*(\d+)\s*$", re.M)
 CAMPO_RE = re.compile(r"^-\s*([a-zA-Z_]+)\s*:\s*(.*)$")
 PAUSA_RE = re.compile(r"^-\s*\[PAUSA\]\s*$", re.I)
 
+NARRACAO_CTA_PADRAO = (
+    "Gostou desse minuto? Se inscreve no canal e ativa o sininho pra não perder o próximo alimento."
+)
+
 
 @dataclass
 class Cena:
@@ -66,10 +70,27 @@ def parse_roteiro(caminho_md: str | Path) -> dict[str, Any]:
                 cena.tipo = valor.lower()
         cenas.append(cena)
 
+    # toda cena "se inscreva" fica de fora do roteiro que o usuário escreve —
+    # sempre entra automaticamente se não tiver uma já marcada com tipo: cta
+    cta_automatico = False
+    if cenas and not any(c.tipo == "cta" for c in cenas):
+        numero = cenas[-1].numero + 1
+        cenas.append(
+            Cena(
+                numero=numero,
+                id=f"cena_{numero:02d}",
+                narracao=NARRACAO_CTA_PADRAO,
+                curto=True,
+                tipo="cta",
+            )
+        )
+        cta_automatico = True
+
     return {
         "titulo": titulo,
         "tipo_conteudo": tipo_conteudo,
         "cenas": [asdict(c) for c in cenas],
+        "cta_automatico": cta_automatico,
     }
 
 

@@ -43,6 +43,13 @@ def _carregar_dados_roteiro(cfg):
     if not dados["cenas"]:
         print(f"{caminho_roteiro} não tem nenhuma cena (## Cena NN) — confira a formatação do arquivo.")
         sys.exit(1)
+    if dados.get("cta_automatico"):
+        n = dados["cenas"][-1]["numero"]
+        print(
+            f"Cena {n} (CTA \"se inscreva\") adicionada automaticamente — não havia nenhuma cena com "
+            "tipo: cta no roteiro.md. Edite a narração dela em cenas.json ou adicione a cena manualmente "
+            "no roteiro.md se quiser personalizar o texto."
+        )
     parsermod.salvar_cenas_json(dados, configmod.caminho(cfg, "cenas_json"))
     return dados
 
@@ -69,6 +76,8 @@ def cmd_parse(args, cfg):
     destino = configmod.caminho(cfg, "cenas_json")
     parsermod.salvar_cenas_json(dados, destino)
     print(f"{len(dados['cenas'])} cenas -> {destino}")
+    if dados.get("cta_automatico"):
+        print(f"Cena {dados['cenas'][-1]['numero']} (CTA \"se inscreva\") adicionada automaticamente.")
 
 
 def cmd_verificar(args, cfg):

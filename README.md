@@ -58,8 +58,10 @@ Tipo: educativo
   buscar foto, usa uma tela gerada com a logo do canal (`identidade/logo_escolhido.png`)
   + o texto da `narracao` (ex.: "Se inscreve e ativa o sininho"). Fica na tela
   no mínimo `placeholders.duracao_cta_segundos` (config.yaml), mesmo que a
-  narração seja mais curta. Normalmente é a última cena do roteiro; marque
-  `curto: sim` nela também se quiser que apareça no Short.
+  narração seja mais curta. **Você não precisa escrever essa cena** — se o
+  roteiro não tiver nenhuma com `tipo: cta`, o pipeline adiciona uma sozinho
+  no final (com `curto: sim`, aparece nos dois vídeos), usando um texto
+  padrão. Só escreva a sua se quiser personalizar a frase.
 - `[PAUSA]`: meio segundo de silêncio antes da próxima cena.
 
 ## 3. Rodando
