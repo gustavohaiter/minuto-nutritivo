@@ -54,6 +54,12 @@ Tipo: educativo
   juntas não podem passar de 60s (o pipeline avisa se passar).
 - `aviso_tela: texto`: queima uma faixa vermelha no topo da imagem dessa cena
   com o texto (pra avisos de saúde/segurança). Opcional.
+- `tipo: cta`: marca a cena como a tela final de call-to-action — em vez de
+  buscar foto, usa uma tela gerada com a logo do canal (`identidade/logo_escolhido.png`)
+  + o texto da `narracao` (ex.: "Se inscreve e ativa o sininho"). Fica na tela
+  no mínimo `placeholders.duracao_cta_segundos` (config.yaml), mesmo que a
+  narração seja mais curta. Normalmente é a última cena do roteiro; marque
+  `curto: sim` nela também se quiser que apareça no Short.
 - `[PAUSA]`: meio segundo de silêncio antes da próxima cena.
 
 ## 3. Rodando

@@ -48,6 +48,10 @@ legendas:
 pausas:
   duracao_segundos: 0.6          # pausas mais curtas — ritmo mais ágil que o true crime
 
+placeholders:
+  duracao_cta_segundos: 4        # tela final "se inscreva" nunca fica menos que isso na tela,
+                                  # mesmo que a narração seja mais curta
+
 imagens:
   orientacao: "landscape"        # foto horizontal corta bem tanto pro vídeo normal quanto
   largura_minima: 1600           # pro Short vertical (o contrário — cortar vertical em

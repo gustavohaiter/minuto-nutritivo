@@ -37,3 +37,8 @@ Tipo: educativo
 - narracao: Ou seja: aquele dente de alho que você joga na panela sem pensar trabalha bastante a seu favor. Amassa, espera dez minutinhos, e aproveita.
 - imagem_busca: garlic sizzling in pan olive oil
 - curto: sim
+
+## Cena 09
+- narracao: Gostou desse minuto? Se inscreve no canal e ativa o sininho pra não perder o próximo alimento.
+- tipo: cta
+- curto: sim

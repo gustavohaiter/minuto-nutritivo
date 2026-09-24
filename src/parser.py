@@ -62,6 +62,8 @@ def parse_roteiro(caminho_md: str | Path) -> dict[str, Any]:
                 cena.curto = valor.lower().startswith("sim")
             elif campo == "aviso_tela":
                 cena.aviso_tela = valor
+            elif campo == "tipo":
+                cena.tipo = valor.lower()
         cenas.append(cena)
 
     return {

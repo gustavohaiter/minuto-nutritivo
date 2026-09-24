@@ -303,14 +303,22 @@ def montar_narracao_completa(
         resultado = sintetizar_cena(cena, cfg, diretorio_cache, forcar=forcar)
         _corrigir_texto_palavras(cena, resultado["alignment"]["palavras"], resultado["duracao_segundos"], avisos)
         audio = AudioSegment.from_file(resultado["mp3_path"])
+
+        if cena.get("tipo") == "cta":
+            # a tela final ("se inscreva") fica exibida pelo menos duracao_cta_segundos,
+            # mesmo que a narração em si seja mais curta que isso
+            duracao_min_ms = int(cfg["placeholders"]["duracao_cta_segundos"] * 1000)
+            if len(audio) < duracao_min_ms:
+                audio += AudioSegment.silent(duration=duracao_min_ms - len(audio))
+
         trilha_final += audio
         inicio = offset
-        fim = offset + resultado["duracao_segundos"]
+        fim = offset + audio.duration_seconds
         timeline.append(
             {
                 "numero": cena["numero"],
                 "id": cena["id"],
-                "tipo": "normal",
+                "tipo": cena.get("tipo", "normal"),
                 "curto": cena.get("curto", False),
                 "inicio": inicio,
                 "fim": fim,

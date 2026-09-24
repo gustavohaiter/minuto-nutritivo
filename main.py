@@ -26,6 +26,7 @@ sys.path.insert(0, str(Path(__file__).parent / "src"))
 import assembly as assemblymod  # noqa: E402
 import avisos as avisosmod  # noqa: E402
 import config as configmod  # noqa: E402
+import cta as ctamod  # noqa: E402
 import images as imagesmod  # noqa: E402
 import narration as narrationmod  # noqa: E402
 import parser as parsermod  # noqa: E402
@@ -102,6 +103,8 @@ def cmd_verificar(args, cfg):
                 problemas.append(
                     f"Cena {c['numero']}: sem imagem manual e sem PEXELS_API_KEY/PIXABAY_API_KEY configurada."
                 )
+        elif c.get("tipo") == "cta":
+            continue
         else:
             n_sem_fonte += 1
             problemas.append(f"Cena {c['numero']}: sem imagem manual e sem imagem_busca preenchida no roteiro.md.")
@@ -171,6 +174,19 @@ def _rodar_imagens(cenas, cfg, forcar, saida_dir):
     resultados = {}
     avisos = []
     for cena in cenas:
+        if cena.get("tipo") == "cta":
+            largura, altura = cfg["video"]["largura"], cfg["video"]["altura"]
+            destino_cta = cache_dir / f"_cta_{largura}x{altura}.png"
+            if forcar or not destino_cta.exists():
+                ctamod.gerar_tela_cta(cfg, destino_cta)
+            resultados[cena["numero"]] = {
+                "numero": cena["numero"],
+                "caminho": destino_cta,
+                "fonte": "Identidade",
+                "autor": "Minuto Nutritivo",
+                "link": "",
+            }
+            continue
         r = imagesmod.obter_imagem_para_cena(cena, cfg, manual_dir, cache_dir, forcar=forcar)
         if r.get("caminho") and cena.get("aviso_tela"):
             largura, altura = cfg["video"]["largura"], cfg["video"]["altura"]
