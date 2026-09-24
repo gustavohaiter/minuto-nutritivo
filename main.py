@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Orquestrador do pipeline roteiro -> vídeo (Minuto Nutritivo).
 
-Cada roteiro gera automaticamente dois vídeos:
-  - saida/video_final.mp4        (vídeo normal, todas as cenas)
-  - saida/curto/video_final.mp4  (Short, só as cenas marcadas "curto: sim")
+`python main.py tudo` gera automaticamente:
+  - saida/video_final.mp4          (vídeo normal, todas as cenas)
+  - saida/curto/video_final.mp4    (Short, só as cenas marcadas "curto: sim")
+  - saida/descricao_youtube.txt
+  - saida/thumbnail.png            (só se o roteiro.md tiver o cabeçalho "Miniatura: N | texto")
 
 Exemplos:
     python main.py parse
@@ -329,57 +331,73 @@ def cmd_montagem(args, cfg):
 
 
 def cmd_tudo(args, cfg):
-    cenas = _carregar_cenas_selecionadas(cfg, args.cenas)
+    dados = _carregar_dados_roteiro(cfg)
+    cenas = parsermod.filtrar_cenas(dados["cenas"], args.cenas)
     saida_dir = configmod.caminho(cfg, "saida")
     tmp_dir = configmod.caminho(cfg, "cache") / "tmp_montagem"
 
     _gerar_saida_completa(cenas, cfg, args.forcar, saida_dir, tmp_dir, "Vídeo normal")
 
     cenas_curto = [c for c in cenas if c.get("curto")]
-    if not cenas_curto:
-        print("\nNenhuma cena marcada com 'curto: sim' no roteiro — Short não foi gerado.")
-        return
-
-    saida_curto = saida_dir / "curto"
-    tmp_curto = configmod.caminho(cfg, "cache") / "tmp_montagem_curto"
-    _, duracao_curto = _gerar_saida_completa(
-        cenas_curto, _cfg_para_curto(cfg), args.forcar, saida_curto, tmp_curto, "Short"
-    )
-
-    limite = cfg["shorts"]["duracao_maxima_segundos"]
-    if duracao_curto > limite:
-        print(
-            f"\nAVISO: o Short saiu com {duracao_curto:.1f}s, acima do limite de {limite}s do YouTube Shorts. "
-            "Marque menos cenas com 'curto: sim' no roteiro."
+    if cenas_curto:
+        saida_curto = saida_dir / "curto"
+        tmp_curto = configmod.caminho(cfg, "cache") / "tmp_montagem_curto"
+        _, duracao_curto = _gerar_saida_completa(
+            cenas_curto, _cfg_para_curto(cfg), args.forcar, saida_curto, tmp_curto, "Short"
         )
+
+        limite = cfg["shorts"]["duracao_maxima_segundos"]
+        if duracao_curto > limite:
+            print(
+                f"\nAVISO: o Short saiu com {duracao_curto:.1f}s, acima do limite de {limite}s do YouTube Shorts. "
+                "Marque menos cenas com 'curto: sim' no roteiro."
+            )
+        else:
+            print(f"\nShort dentro do limite: {duracao_curto:.1f}s / {limite}s.")
     else:
-        print(f"\nShort dentro do limite: {duracao_curto:.1f}s / {limite}s.")
+        print("\nNenhuma cena marcada com 'curto: sim' no roteiro — Short não foi gerado.")
+
+    print()
+    _gerar_descricao(dados, cfg)
+
+    if dados.get("miniatura_cena"):
+        _gerar_miniatura(dados, dados["miniatura_cena"], dados["miniatura_texto"], cfg)
+    else:
+        print(
+            "Miniatura não gerada automaticamente — roteiro.md não tem um cabeçalho \"Miniatura: N | texto\". "
+            'Gere na mão: python main.py miniatura --cena N --texto "SEU TEXTO"'
+        )
 
 
-def cmd_miniatura(args, cfg):
-    cenas = _carregar_cenas_selecionadas(cfg, None)
-    cena = next((c for c in cenas if c["numero"] == args.cena), None)
+def _gerar_miniatura(dados, cena_numero, texto, cfg):
+    cena = next((c for c in dados["cenas"] if c["numero"] == cena_numero), None)
     if not cena:
-        print(f"Cena {args.cena} não encontrada no roteiro.")
-        sys.exit(1)
+        print(f"Cena {cena_numero} não encontrada no roteiro — miniatura não gerada.")
+        return None
 
     manual_dir = configmod.caminho(cfg, "imagens_manuais")
     cache_dir = configmod.caminho(cfg, "cache") / "images"
     resultado = imagesmod.obter_imagem_para_cena(cena, cfg, manual_dir, cache_dir)
     if not resultado.get("caminho"):
-        print(f"Cena {args.cena} sem imagem disponível ({resultado.get('aviso', 'sem detalhes')}).")
-        sys.exit(1)
+        print(f"Cena {cena_numero} sem imagem disponível ({resultado.get('aviso', 'sem detalhes')}) — miniatura não gerada.")
+        return None
 
     saida_dir = configmod.caminho(cfg, "saida")
+    saida_dir.mkdir(parents=True, exist_ok=True)
     destino = saida_dir / "thumbnail.png"
-    thumbnailmod.gerar_thumbnail(Path(resultado["caminho"]), args.texto, cfg, destino)
+    thumbnailmod.gerar_thumbnail(Path(resultado["caminho"]), texto, cfg, destino)
     print(f"Miniatura gerada: {destino}")
+    return destino
 
 
-def cmd_descricao(args, cfg):
+def cmd_miniatura(args, cfg):
     dados = _carregar_dados_roteiro(cfg)
-    titulo = dados["titulo"]
+    if not _gerar_miniatura(dados, args.cena, args.texto, cfg):
+        sys.exit(1)
 
+
+def _gerar_descricao(dados, cfg):
+    titulo = dados["titulo"]
     resumo = " ".join(c["narracao"].strip() for c in dados["cenas"][:3])
 
     texto = f"""TÍTULO SUGERIDO:
@@ -401,6 +419,12 @@ Se inscreva e ative o sininho.
     destino = saida_dir / "descricao_youtube.txt"
     destino.write_text(texto, encoding="utf-8")
     print(f"Rascunho de título/descrição gerado: {destino}")
+    return destino
+
+
+def cmd_descricao(args, cfg):
+    dados = _carregar_dados_roteiro(cfg)
+    _gerar_descricao(dados, cfg)
 
 
 def main():

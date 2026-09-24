@@ -37,8 +37,17 @@ def parse_roteiro(caminho_md: str | Path) -> dict[str, Any]:
     cabecalho, *resto = CENA_RE.split(texto)
     titulo_m = re.search(r"^#\s*(.+)$", cabecalho, re.M)
     tipo_m = re.search(r"^Tipo:\s*(.+)$", cabecalho, re.M | re.I)
+    miniatura_m = re.search(r"^Miniatura:\s*(.+)$", cabecalho, re.M | re.I)
     titulo = titulo_m.group(1).strip() if titulo_m else ""
     tipo_conteudo = tipo_m.group(1).strip() if tipo_m else ""
+
+    miniatura_cena = None
+    miniatura_texto = ""
+    if miniatura_m:
+        partes = miniatura_m.group(1).split("|", 1)
+        if len(partes) == 2 and partes[0].strip().isdigit():
+            miniatura_cena = int(partes[0].strip())
+            miniatura_texto = partes[1].strip()
 
     cenas: list[Cena] = []
     for i in range(0, len(resto), 2):
@@ -91,6 +100,8 @@ def parse_roteiro(caminho_md: str | Path) -> dict[str, Any]:
         "tipo_conteudo": tipo_conteudo,
         "cenas": [asdict(c) for c in cenas],
         "cta_automatico": cta_automatico,
+        "miniatura_cena": miniatura_cena,
+        "miniatura_texto": miniatura_texto,
     }
 
 

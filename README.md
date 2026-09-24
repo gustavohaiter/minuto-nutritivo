@@ -1,8 +1,11 @@
 # Minuto Nutritivo — pipeline roteiro → vídeo
 
-Gera automaticamente, a partir de um `roteiro.md`, **dois vídeos**:
+`python main.py tudo` gera automaticamente, a partir de um `roteiro.md`,
+**tudo que você precisa pra postar**:
 - `saida/video_final.mp4` — vídeo normal (**horizontal 16:9**, 1920x1080, 1-2 min)
 - `saida/curto/video_final.mp4` — Short (**vertical 9:16**, 1080x1920, ≤60s, feito das cenas marcadas `curto: sim`)
+- `saida/descricao_youtube.txt` — rascunho de título/descrição
+- `saida/thumbnail.png` — só se o roteiro.md tiver o cabeçalho `Miniatura:` (veja seção 2)
 
 Os dois são cortados automaticamente da mesma foto (buscada em landscape, que
 se adapta bem tanto pro corte horizontal quanto pro vertical). O vídeo normal
@@ -35,6 +38,7 @@ FFmpeg precisa estar instalado e no PATH.
 ```markdown
 # 5 BENEFÍCIOS DO ABACATE
 Tipo: educativo
+Miniatura: 1 | ISSO O ABACATE FAZ PELO SEU CORAÇÃO
 
 ## Cena 01
 - narracao: Você sabia que o abacate pode fazer muito bem pro seu coração?
@@ -64,15 +68,29 @@ Tipo: educativo
   padrão. Só escreva a sua se quiser personalizar a frase.
 - `[PAUSA]`: meio segundo de silêncio antes da próxima cena.
 
+Cabeçalho opcional (fica junto do `Tipo:`, antes da primeira `## Cena`):
+- `Miniatura: N | TEXTO`: gera `saida/thumbnail.png` automaticamente no
+  `python main.py tudo`, usando a imagem da cena N e esse texto. Sem esse
+  cabeçalho, a miniatura não é gerada sozinha — precisa rodar
+  `python main.py miniatura --cena N --texto "..."` na mão depois.
+
 ## 3. Rodando
 
 ```bash
 python main.py parse        # roteiro.md -> cenas.json
 python main.py verificar    # checagem rápida antes de gastar tempo/crédito
 python main.py estimar      # custo em caracteres (só relevante pro ElevenLabs)
-python main.py tudo         # gera video_final.mp4 E o Short (se tiver cena "curto")
-python main.py miniatura --cena 1 --texto "SEU TEXTO AQUI"
-python main.py descricao
+python main.py tudo         # gera os dois vídeos + descrição + miniatura (se tiver cabeçalho Miniatura:)
+```
+
+`tudo` já cobre o fluxo normal. Os comandos abaixo servem só pra atualizar
+uma coisa isolada sem regerar o resto (ex.: você não gostou do texto da
+miniatura e quer só refazer ela):
+
+```bash
+python main.py miniatura --cena 1 --texto "SEU TEXTO AQUI"   # só saida/thumbnail.png
+python main.py descricao                                      # só saida/descricao_youtube.txt
+python main.py montagem                                        # só remonta o vídeo (narração/imagens já prontas)
 ```
 
 Use `--forcar` em `narracao`/`imagens`/`tudo` pra ignorar cache e regerar do zero.
