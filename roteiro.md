@@ -1,39 +1,39 @@
-# OS BENEFÍCIOS DA BETERRABA
+# OS BENEFÍCIOS DA LARANJA
 Tipo: educativo
 
 ## Cena 01
-- narracao: Tem um alimento barato que atletas profissionais tomam antes de competir. E ele provavelmente está na feira perto da sua casa: a beterraba.
-- imagem_busca: fresh beetroot with leaves market
+- narracao: Todo mundo sabe que laranja tem vitamina C. Mas a parte mais interessante dela é justamente a que a maioria das pessoas joga fora.
+- imagem_busca: fresh oranges wooden table sunlight
 - curto: sim
 
 ## Cena 02
-- narracao: O segredo dela está nos nitratos naturais. No corpo, eles viram óxido nítrico, uma substância que relaxa e alarga os vasos sanguíneos, melhorando o fluxo de sangue.
-- imagem_busca: blood vessels illustration 3d
+- narracao: Começando pelo básico: uma laranja média já cobre boa parte da vitamina C que você precisa no dia. Ela participa da defesa do organismo e da produção de colágeno, aquele que sustenta a pele e cicatriza feridas.
+- imagem_busca: orange slice macro juicy
 
 ## Cena 03
-- narracao: É por isso que vários estudos apontam uma queda modesta na pressão arterial em quem consome suco de beterraba com regularidade.
-- imagem_busca: blood pressure monitor table
-- curto: sim
+- narracao: E tem um truque que pouca gente usa: a vitamina C melhora bastante a absorção do ferro de origem vegetal. Então laranja junto com feijão ou folhas verdes rende mais do que cada um separado.
+- imagem_busca: brazilian rice beans plate
 
 ## Cena 04
-- narracao: E é também por isso que ela aparece no treino. Com mais oxigênio chegando aos músculos, a pesquisa mostra ganhos pequenos, mas reais, de resistência em exercícios de longa duração. Por isso o suco costuma ser tomado de duas a três horas antes.
-- imagem_busca: runner training outdoors morning
+- narracao: Agora a parte que quase todo mundo descarta: aquela camada branca entre a casca e o gomo. É ali que se concentram as fibras e boa parte dos flavonoides, compostos associados à saúde do coração. Descasque sem tirar tudo.
+- imagem_busca: orange peeled white pith close up
+- curto: sim
 
 ## Cena 05
-- narracao: Fora isso, a beterraba entrega folato, importante principalmente na gestação, fibras, que ajudam o intestino, e as betalaínas, os pigmentos que dão aquela cor forte e funcionam como antioxidantes.
-- imagem_busca: sliced beetroot macro deep red
+- narracao: É também por isso que a fruta ganha do suco. No copo, a fibra some, e o açúcar natural entra de uma vez no organismo. Duas ou três laranjas viram um copo em poucos segundos, mas você dificilmente comeria três de uma vez.
+- imagem_busca: orange juice glass beside whole orange
 
 ## Cena 06
-- narracao: Uma dica: não jogue as folhas fora. Elas são comestíveis e ricas em nutrientes, ótimas refogadas como couve.
-- imagem_busca: beet greens sauteed pan
+- narracao: Além disso, a laranja traz potássio, que ajuda no controle da pressão, e folato, importante na gestação. Tudo isso com poucas calorias.
+- imagem_busca: oranges basket market stall
 
 ## Cena 07
-- narracao: Dois avisos. Se a sua urina ficar rosada depois de comer beterraba, calma: isso é comum e inofensivo. Mas ela é rica em oxalatos, então quem tem histórico de pedra nos rins deve conversar com o médico antes de exagerar.
-- imagem_busca: doctor consultation patient talking
+- narracao: Um aviso: por ser ácida, pode incomodar quem sofre de refluxo ou gastrite. E quem usa certos remédios, principalmente para colesterol e pressão, deve conferir com o médico, já que algumas frutas cítricas interferem na absorção.
+- imagem_busca: doctor talking patient consultation
 - aviso_tela: Conteúdo informativo. Não substitui orientação médica.
 - curto: sim
 
 ## Cena 08
-- narracao: Crua no ralo da salada, assada no forno ou batida no suco: é das formas mais baratas de cuidar da circulação. Aproveita.
-- imagem_busca: roasted beetroot salad plate
+- narracao: Resumindo: prefira a fruta ao suco e não tire toda a parte branca. Simples assim, e bem mais barato que qualquer suplemento.
+- imagem_busca: person eating orange segment outdoors
 - curto: sim
