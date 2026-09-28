@@ -31,6 +31,10 @@ avisa o que não vai dar pra fazer):
 - `ELEVENLABS_API_KEY` — só se `voz.motor: elevenlabs` no config.yaml
 - `PEXELS_API_KEY` / `PIXABAY_API_KEY` — pra buscar fotos automaticamente
 
+**Windows**: em vez de ativar o venv na mão toda vez (`.venv\Scripts\activate`),
+dê duplo clique em `abrir_projeto.bat` — ele já entra na pasta certa, ativa o
+venv e abre um terminal pronto pra usar.
+
 FFmpeg precisa estar instalado e no PATH.
 
 ## 2. Formato do roteiro.md
