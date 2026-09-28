@@ -1,5 +1,6 @@
 # OS BENEFÍCIOS DO ABACATE
 Tipo: educativo
+Miniatura: 1 | A GORDURA MAIS INTELIGENTE DO SEU PRATO
 
 ## Cena 01
 - narracao: Durante anos disseram que abacate engorda e que era melhor evitar. Hoje ele é uma das frutas mais estudadas do mundo. E o motivo é a gordura dele.
