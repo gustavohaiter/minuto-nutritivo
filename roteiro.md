@@ -1,39 +1,39 @@
-# OS BENEFÍCIOS DA LARANJA
+# OS BENEFÍCIOS DO ABACATE
 Tipo: educativo
 
 ## Cena 01
-- narracao: Todo mundo sabe que laranja tem vitamina C. Mas a parte mais interessante dela é justamente a que a maioria das pessoas joga fora.
-- imagem_busca: fresh navel oranges wooden table sunlight
+- narracao: Durante anos disseram que abacate engorda e que era melhor evitar. Hoje ele é uma das frutas mais estudadas do mundo. E o motivo é a gordura dele.
+- imagem_busca: avocado cut in half wooden board
 - curto: sim
 
 ## Cena 02
-- narracao: Começando pelo básico: uma laranja média já cobre boa parte da vitamina C que você precisa no dia. Ela participa da defesa do organismo e da produção de colágeno, aquele que sustenta a pele e cicatriza feridas.
-- imagem_busca: navel orange slice macro juicy
+- narracao: A maior parte é gordura monoinsaturada, o mesmo tipo do azeite de oliva. Ela está associada à melhora do colesterol: ajuda a reduzir o LDL, o ruim, mantendo o HDL, o bom.
+- imagem_busca: olive oil pouring bowl
 
 ## Cena 03
-- narracao: E tem um truque que pouca gente usa: a vitamina C melhora bastante a absorção do ferro de origem vegetal. Então laranja junto com feijão ou folhas verdes rende mais do que cada um separado.
-- imagem_busca: brazilian rice beans plate
+- narracao: E gordura boa segura a fome. Meio abacate no café da manhã costuma render horas sem aquela vontade de beliscar. É por isso que ele funciona bem até em dietas de emagrecimento, apesar de ser calórico.
+- imagem_busca: avocado toast breakfast plate
 
 ## Cena 04
-- narracao: Agora a parte que quase todo mundo descarta: aquela camada branca entre a casca e o gomo. É ali que se concentram as fibras e boa parte dos flavonoides, compostos associados à saúde do coração. Descasque sem tirar tudo.
-- imagem_busca: navel orange peeled white pith close up
+- narracao: Tem outro efeito que quase ninguém comenta: a gordura do abacate melhora a absorção das vitaminas A, D, E e K e de antioxidantes dos vegetais. Ou seja, umas fatias na salada fazem o resto do prato render mais.
+- imagem_busca: green salad with avocado slices
 - curto: sim
 
 ## Cena 05
-- narracao: É também por isso que a fruta ganha do suco. No copo, a fibra some, e o açúcar natural entra de uma vez no organismo. Duas ou três laranjas viram um copo em poucos segundos, mas você dificilmente comeria três de uma vez.
-- imagem_busca: navel orange juice glass beside whole orange
+- narracao: Ele ainda é rico em potássio, mais do que a banana por porção, o que ajuda no controle da pressão. E entrega bastante fibra, que alimenta as bactérias boas do intestino.
+- imagem_busca: avocado and banana comparison table
 
 ## Cena 06
-- narracao: Além disso, a laranja traz potássio, que ajuda no controle da pressão, e folato, importante na gestação. Tudo isso com poucas calorias.
-- imagem_busca: navel oranges basket market stall
+- narracao: Duas dicas: para amadurecer mais rápido, guarde com uma banana num saco de papel. E o caroço não impede o abacate cortado de escurecer. O que funciona mesmo é limão e um pote bem fechado.
+- imagem_busca: avocado half with lemon juice container
 
 ## Cena 07
-- narracao: Um aviso: por ser ácida, pode incomodar quem sofre de refluxo ou gastrite. E quem usa certos remédios, principalmente para colesterol e pressão, deve conferir com o médico, já que algumas frutas cítricas interferem na absorção.
-- imagem_busca: doctor talking patient consultation
+- narracao: Vale lembrar: ele é calórico. Uma porção razoável é meio abacate por dia. E quem faz uso de anticoagulante deve manter o consumo constante, sem exageros repentinos, por causa da vitamina K. Na dúvida, fale com o médico.
+- imagem_busca: doctor consultation patient talking
 - aviso_tela: Conteúdo informativo. Não substitui orientação médica.
 - curto: sim
 
 ## Cena 08
-- narracao: Resumindo: prefira a fruta ao suco e não tire toda a parte branca. Simples assim, e bem mais barato que qualquer suplemento.
-- imagem_busca: person eating navel orange segment outdoors
+- narracao: No sal ou no doce, do jeito brasileiro mesmo: é uma das gorduras mais inteligentes que você pode colocar no prato.
+- imagem_busca: avocado smoothie glass fresh
 - curto: sim
