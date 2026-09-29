@@ -13,7 +13,8 @@ CAMPO_RE = re.compile(r"^-\s*([a-zA-Z_]+)\s*:\s*(.*)$")
 PAUSA_RE = re.compile(r"^-\s*\[PAUSA\]\s*$", re.I)
 
 NARRACAO_CTA_PADRAO = (
-    "Gostou desse minuto? Se inscreve no canal e ativa o sininho pra não perder o próximo alimento."
+    "Gostou desse minuto? Se inscreve, ativa o sininho e concorra a um sorteio misterioso. "
+    "Em breve a gente revela."
 )
 
 
