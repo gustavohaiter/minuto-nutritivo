@@ -1,40 +1,43 @@
-# OS BENEFÍCIOS DO ABACATE
+# OS BENEFÍCIOS DO MELÃO
 Tipo: educativo
-Miniatura: 1 | A GORDURA MAIS INTELIGENTE DO SEU PRATO
 
 ## Cena 01
-- narracao: Durante anos disseram que abacate engorda e que era melhor evitar. Hoje ele é uma das frutas mais estudadas do mundo. E o motivo é a gordura dele.
-- imagem_busca: ripe avocado halves with pit close up
+- narracao: Existe uma fruta que é quase 90% água, tem pouquíssima caloria e ainda repõe minerais. Não é a melancia. É o melão.
+- imagem_busca: melon sliced half seeds close up
 - curto: sim
 
 ## Cena 02
-- narracao: A maior parte é gordura monoinsaturada, o mesmo tipo do azeite de oliva. Ela está associada à melhora do colesterol: ajuda a reduzir o LDL, o ruim, mantendo o HDL, o bom.
-- imagem_busca: olive oil pouring from glass bottle
+- narracao: Por causa dessa água toda, ele é um dos melhores jeitos de se hidratar comendo. E não é só água pura: vem acompanhada de potássio e magnésio, que são justamente os minerais que o corpo perde no suor.
+- imagem_busca: melon slices summer table
 
 ## Cena 03
-- narracao: E gordura boa segura a fome. Meio abacate no café da manhã costuma render horas sem aquela vontade de beliscar. É por isso que ele funciona bem até em dietas de emagrecimento, apesar de ser calórico.
-- imagem_busca: avocado toast breakfast plate
+- narracao: O potássio ajuda o corpo a equilibrar o sódio, e isso favorece o controle da pressão arterial. O melão também tem um efeito diurético leve, o que dá aquela sensação de desinchar.
+- imagem_busca: fresh melon slices refreshing summer
 
 ## Cena 04
-- narracao: Tem outro efeito que quase ninguém comenta: a gordura do abacate melhora a absorção das vitaminas A, D, E e K e de antioxidantes dos vegetais. Ou seja, umas fatias na salada fazem o resto do prato render mais.
-- imagem_busca: green salad with avocado slices
-- curto: sim
+- narracao: Mas atenção a um detalhe: a cor da polpa muda o jogo. O melão amarelo, o mais comum aqui, é rico em vitamina C. Já o de polpa alaranjada, o cantaloupe, tem muito mais betacaroteno, que o corpo transforma em vitamina A, importante para a visão e para a pele.
+- imagem_busca: cantaloupe and yellow melon side by side
 
 ## Cena 05
-- narracao: Ele ainda é rico em potássio, mais do que a banana por porção, o que ajuda no controle da pressão. E entrega bastante fibra, que alimenta as bactérias boas do intestino.
-- imagem_busca: avocado and banana comparison table
+- narracao: E tem o lado da balança: uma fatia generosa tem pouquíssimas calorias, com fibras que ajudam o intestino. É sobremesa que não pesa.
+- imagem_busca: sliced melon dessert plate
 
 ## Cena 06
-- narracao: Duas dicas: para amadurecer mais rápido, guarde com uma banana num saco de papel. E o caroço não impede o abacate cortado de escurecer. O que funciona mesmo é limão e um pote bem fechado.
-- imagem_busca: sliced avocado on cutting board close up
+- narracao: Como escolher um bom melão? Cheire a ponta oposta ao cabinho: melão maduro tem perfume doce ali. Aperte de leve nessa mesma região, ela deve ceder um pouquinho. E pese na mão: quanto mais pesado para o tamanho, mais suculento.
+- imagem_busca: person choosing melon market smelling
 
 ## Cena 07
-- narracao: Vale lembrar: ele é calórico. Uma porção razoável é meio abacate por dia. E quem faz uso de anticoagulante deve manter o consumo constante, sem exageros repentinos, por causa da vitamina K. Na dúvida, fale com o médico.
+- narracao: Uma dica que quase ninguém segue: lave a casca antes de cortar. A faca atravessa a casca e leva para a polpa o que estiver do lado de fora. Melão já causou surtos alimentares justamente por isso.
+- imagem_busca: washing melon under running water
+- curto: sim
+
+## Cena 08
+- narracao: E dois avisos: ele é docinho, então quem tem diabetes deve ficar de olho na porção. E quem tem doença renal precisa de orientação médica por causa do potássio.
 - imagem_busca: doctor consultation patient talking
 - aviso_tela: Conteúdo informativo. Não substitui orientação médica.
 - curto: sim
 
-## Cena 08
-- narracao: No sal ou no doce, do jeito brasileiro mesmo: é uma das gorduras mais inteligentes que você pode colocar no prato.
-- imagem_busca: green avocado smoothie in glass
+## Cena 09
+- narracao: Barato, refrescante e cheio de água boa. Da próxima vez que passar na feira, cheira o cabinho e leva um.
+- imagem_busca: person holding whole melon at market
 - curto: sim
