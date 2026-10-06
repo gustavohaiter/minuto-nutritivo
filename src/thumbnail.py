@@ -43,14 +43,53 @@ def _desenhar_texto_com_contorno(
     draw.text((x, y), texto, font=fonte, fill=MUSTARD)
 
 
+def _quebrar_para_caber(
+    draw: ImageDraw.ImageDraw, texto: str, fonte: ImageFont.FreeTypeFont, largura_max: float
+) -> list[str]:
+    """Reduz os caracteres por linha até a LARGURA RENDERIZADA (medida de
+    verdade via textbbox, não estimada) caber dentro de largura_max."""
+    largura_chars = 40
+    linhas = textwrap.wrap(texto, width=largura_chars) or [texto]
+    while largura_chars > 2:
+        maior_linha = max(draw.textbbox((0, 0), l, font=fonte)[2] for l in linhas)
+        if maior_linha <= largura_max:
+            break
+        largura_chars -= 1
+        linhas = textwrap.wrap(texto, width=largura_chars) or [texto]
+    return linhas
+
+
 def gerar_thumbnail(imagem_path: Path, texto: str, cfg: dict[str, Any], destino: Path) -> None:
     base = Image.open(imagem_path).convert("RGB")
     base = ImageOps.fit(base, (W, H), Image.LANCZOS)
     base = _escurecer_base(base)
     draw = ImageDraw.Draw(base)
 
-    linhas = textwrap.wrap(texto.upper(), width=14)[:3]
-    tamanho_fonte = 108 if len(linhas) <= 2 else 84
+    # tenta do maior fonte pro menor até o texto caber em MAX_LINHAS sem
+    # cortar nada — só corta (avisando) se nem no menor tamanho couber,
+    # em vez de descartar palavras silenciosamente como antes. Cada linha
+    # é medida de verdade (textbbox) contra a margem, não estimada por
+    # contagem de caracteres — senão palavras longas/letras largas vazam
+    # pra fora da miniatura.
+    MAX_LINHAS = 4
+    MARGEM = int(W * 0.08)
+    largura_max = W - 2 * MARGEM
+    texto_upper = texto.upper()
+    linhas: list[str] = []
+    tamanho_fonte = 64
+    for tamanho_fonte in (108, 92, 76, 64, 54):
+        fonte_teste = _carregar_fonte(cfg, tamanho_fonte)
+        linhas = _quebrar_para_caber(draw, texto_upper, fonte_teste, largura_max)
+        if len(linhas) <= MAX_LINHAS:
+            break
+    else:
+        linhas_completas = linhas
+        linhas = linhas[:MAX_LINHAS]
+        print(
+            f"AVISO: texto da miniatura não coube inteiro (\"{' '.join(linhas_completas)}\") — "
+            f"ficou cortado em \"{' '.join(linhas)}\". Encurte o texto em roteiro.md (Miniatura: N | texto) "
+            "pra caber."
+        )
     fonte = _carregar_fonte(cfg, tamanho_fonte)
 
     alturas = []
