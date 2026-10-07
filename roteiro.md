@@ -1,5 +1,6 @@
 # OS BENEFÍCIOS DA MANGA
 Tipo: educativo
+Miniatura: 1 | O NUTRIENTE QUE QUASE NENHUMA FRUTA TEM
 
 ## Cena 01
 - narracao: Ela é doce, é tropical, e muita gente evita achando que engorda. Mas a manga tem um nutriente que quase nenhuma outra fruta entrega na mesma quantidade.

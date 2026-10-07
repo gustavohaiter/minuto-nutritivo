@@ -13,9 +13,18 @@ def _palavras_da_cena(entrada_timeline: dict[str, Any]) -> list[dict[str, Any]]:
     return [{"texto": p["texto"], "inicio": p["inicio"] + offset, "fim": p["fim"] + offset} for p in palavras]
 
 
+def _contar_linhas(texto: str, largura: int) -> int:
+    """Quantas linhas o textwrap realmente usaria pra esse texto — é essa
+    contagem (não a soma de caracteres) que decide se um cue cabe, senão
+    um texto que "parece" caber pode precisar de mais linhas na hora de
+    desenhar e o textwrap.wrap(max_lines=...) corta palavra do fim sem avisar."""
+    return max(len(textwrap.wrap(texto, width=largura)), 1)
+
+
 def _agrupar_em_cues(
     palavras: list[dict[str, Any]],
-    max_chars_total: int,
+    max_chars_linha: int,
+    max_linhas: int,
     duracao_max: float,
     duracao_min: float,
 ) -> list[dict[str, Any]]:
@@ -34,23 +43,25 @@ def _agrupar_em_cues(
             continue
         texto_teste = " ".join(x["texto"] for x in atual) + " " + p["texto"]
         duracao_teste = p["fim"] - atual[0]["inicio"]
-        if len(texto_teste) > max_chars_total or duracao_teste > duracao_max:
+        if _contar_linhas(texto_teste, max_chars_linha) > max_linhas or duracao_teste > duracao_max:
             fechar()
             atual = [p]
         else:
             atual.append(p)
     fechar()
 
-    # funde cues muito curtas com a seguinte, se couber
+    # funde cues muito curtas com a seguinte, se couber (mesma checagem de
+    # quebra de linha real, não soma de caracteres)
     fundidas: list[dict[str, Any]] = []
     for cue in cues:
+        texto_combinado = f'{fundidas[-1]["texto"]} {cue["texto"]}' if fundidas else ""
         if (
             fundidas
             and (cue["fim"] - fundidas[-1]["inicio"]) <= duracao_max
             and (fundidas[-1]["fim"] - fundidas[-1]["inicio"]) < duracao_min
-            and len(fundidas[-1]["texto"]) + len(cue["texto"]) + 1 <= max_chars_total
+            and _contar_linhas(texto_combinado, max_chars_linha) <= max_linhas
         ):
-            fundidas[-1]["texto"] += " " + cue["texto"]
+            fundidas[-1]["texto"] = texto_combinado
             fundidas[-1]["fim"] = cue["fim"]
         else:
             fundidas.append(cue)
@@ -58,10 +69,15 @@ def _agrupar_em_cues(
 
 
 def _formatar_srt_tempo(segundos: float) -> str:
-    horas = int(segundos // 3600)
-    minutos = int((segundos % 3600) // 60)
-    segs = int(segundos % 60)
-    milissegundos = int(round((segundos - int(segundos)) * 1000))
+    # arredonda o total em ms primeiro, depois decompõe com divmod — fazer
+    # na ordem inversa (truncar segundos, arredondar só a parte fracionária)
+    # podia gerar "29,1000" em vez de "30,000" quando a fração arredondava
+    # pra cima do limite, um timestamp inválido que o ffmpeg/libass não
+    # entende direito (e podia ser a causa de legenda "comendo" palavra)
+    total_ms = int(round(segundos * 1000))
+    horas, resto = divmod(total_ms, 3_600_000)
+    minutos, resto = divmod(resto, 60_000)
+    segs, milissegundos = divmod(resto, 1000)
     return f"{horas:02d}:{minutos:02d}:{segs:02d},{milissegundos:03d}"
 
 
@@ -69,7 +85,6 @@ def _montar_cues(timeline: list[dict[str, Any]], cfg: dict[str, Any]) -> list[di
     leg_cfg = cfg["legendas"]
     max_chars_linha = leg_cfg["max_caracteres_por_linha"]
     max_linhas = leg_cfg["max_linhas"]
-    max_chars_total = max_chars_linha * max_linhas
     duracao_max = leg_cfg["duracao_max_segundos"]
     duracao_min = leg_cfg["duracao_min_segundos"]
 
@@ -85,8 +100,23 @@ def _montar_cues(timeline: list[dict[str, Any]], cfg: dict[str, Any]) -> list[di
         palavras = _palavras_da_cena(entrada)
         if not palavras:
             continue
-        cues.extend(_agrupar_em_cues(palavras, max_chars_total, duracao_max, duracao_min))
+        cues.extend(_agrupar_em_cues(palavras, max_chars_linha, max_linhas, duracao_max, duracao_min))
     return cues
+
+
+def _quebrar_para_exibir(texto: str, largura: int, max_linhas: int, contexto: str) -> list[str]:
+    """Quebra o texto do cue pra exibição. _agrupar_em_cues já garante que
+    cabe em max_linhas — isso aqui nunca deveria precisar cortar nada; se
+    precisar (texto/config mudou de um jeito inesperado), avisa em vez de
+    apagar palavra do fim silenciosamente como o textwrap.wrap(max_lines=...)
+    fazia antes."""
+    linhas = textwrap.wrap(texto, width=largura)
+    if len(linhas) > max_linhas:
+        print(
+            f"AVISO: legenda \"{texto}\" precisou de {len(linhas)} linhas ({contexto}), mais que o "
+            f"configurado ({max_linhas}) — exibindo tudo mesmo assim, só que mais alto que o padrão."
+        )
+    return linhas
 
 
 def gerar_srt(timeline: list[dict[str, Any]], cfg: dict[str, Any], destino: Path) -> Path:
@@ -98,7 +128,7 @@ def gerar_srt(timeline: list[dict[str, Any]], cfg: dict[str, Any], destino: Path
 
     linhas_srt = []
     for i, cue in enumerate(cues, start=1):
-        texto_quebrado = "\n".join(textwrap.wrap(cue["texto"], width=max_chars_linha, max_lines=max_linhas, placeholder="…"))
+        texto_quebrado = "\n".join(_quebrar_para_exibir(cue["texto"], max_chars_linha, max_linhas, "srt"))
         linhas_srt.append(str(i))
         linhas_srt.append(f"{_formatar_srt_tempo(cue['inicio'])} --> {_formatar_srt_tempo(cue['fim'])}")
         linhas_srt.append(texto_quebrado)
@@ -109,10 +139,13 @@ def gerar_srt(timeline: list[dict[str, Any]], cfg: dict[str, Any], destino: Path
 
 
 def _formatar_ass_tempo(segundos: float) -> str:
-    horas = int(segundos // 3600)
-    minutos = int((segundos % 3600) // 60)
-    segs = int(segundos % 60)
-    centesimos = int(round((segundos - int(segundos)) * 100))
+    # mesmo cuidado do _formatar_srt_tempo: arredonda o total em centésimos
+    # primeiro, depois decompõe com divmod — evita gerar "29.100" (inválido,
+    # devia ser "30.00") quando a fração arredondava pra cima do limite
+    total_cs = int(round(segundos * 100))
+    horas, resto = divmod(total_cs, 360_000)
+    minutos, resto = divmod(resto, 6_000)
+    segs, centesimos = divmod(resto, 100)
     return f"{horas:d}:{minutos:02d}:{segs:02d}.{centesimos:02d}"
 
 
@@ -143,9 +176,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
     linhas_evento = []
     for cue in cues:
-        texto_quebrado = "\\N".join(
-            textwrap.wrap(cue["texto"], width=max_chars_linha, max_lines=max_linhas, placeholder="…")
-        )
+        texto_quebrado = "\\N".join(_quebrar_para_exibir(cue["texto"], max_chars_linha, max_linhas, "ass"))
         linhas_evento.append(
             f"Dialogue: 0,{_formatar_ass_tempo(cue['inicio'])},{_formatar_ass_tempo(cue['fim'])},Default,,0,0,0,,{texto_quebrado}"
         )

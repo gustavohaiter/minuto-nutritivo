@@ -1,12 +1,13 @@
 # Instruções permanentes — Minuto Nutritivo
 
-- **Sempre que eu montar/ajustar um roteiro novo, tenho que sugerir 2-3
-  ideias de texto para a miniatura** (curto, impactante, maiúsculas — estilo
-  "ISSO O ALHO FAZ PELO CORAÇÃO"), mesmo sem o usuário pedir. Ele decide entre
-  as opções (ou pede outra) e eu só gero `saida/thumbnail.png` depois disso —
-  nunca decido o texto sozinho sem apresentar opções primeiro.
-- Se o usuário aprovar um texto, ofereço adicionar o cabeçalho `Miniatura: N | TEXTO`
-  no `roteiro.md` pra isso sair automático no próximo `python main.py tudo`.
+- **Toda vez que eu montar um roteiro novo, já decido sozinho a miniatura**
+  (atualizado — antes eu pedia aprovação primeiro, não pede mais): escolho o
+  texto (curto, impactante, maiúsculas — estilo "ISSO O ALHO FAZ PELO
+  CORAÇÃO") e a cena cuja imagem uso de fundo, e já deixo o cabeçalho
+  `Miniatura: N | TEXTO` no `roteiro.md` desde a primeira versão, pra sair
+  pronto no `python main.py tudo` sem passo extra. Se o usuário não gostar,
+  ele troca manualmente (me pede ajuste ou edita o roteiro.md direto) — não
+  preciso mais esperar aprovação antes de gerar.
 - **`imagem_busca` precisa ter o alimento principal como palavra dominante,
   sozinho — sem citar um segundo alimento junto** (ex.: "avocado ... lemon",
   "avocado ... olive oil"). O banco de imagens (Pexels/Pixabay) não garante
