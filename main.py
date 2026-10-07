@@ -33,6 +33,7 @@ import cta as ctamod  # noqa: E402
 import images as imagesmod  # noqa: E402
 import narration as narrationmod  # noqa: E402
 import parser as parsermod  # noqa: E402
+import revisao as revisaomod  # noqa: E402
 import subtitles as subtitlesmod  # noqa: E402
 import thumbnail as thumbnailmod  # noqa: E402
 
@@ -220,7 +221,16 @@ def _rodar_imagens(cenas, cfg, forcar, saida_dir):
     }
     (saida_dir / "imagens_resultado.json").write_text(json.dumps(persistido, ensure_ascii=False, indent=2), encoding="utf-8")
 
+    folha = revisaomod.gerar_folha_contato(resultados, cfg, saida_dir / "revisao_imagens.jpg")
+
     print(f"Imagens processadas: {len(resultados)} cena(s) — créditos em {saida_dir / 'creditos.txt'}")
+    if folha:
+        print(
+            f"Folha de contato pra revisão: {folha} — confira pessoas em destaque, ilustração/infográfico, "
+            "logo de marca ou texto sobreposto antes de montar o vídeo. Pra trocar uma imagem ruim, salve a "
+            "substituta em imagens_manuais/<id_da_cena>.jpg (ex.: cena_03.jpg) e rode `python main.py imagens` "
+            "de novo — imagem manual tem prioridade automática, não precisa de --forcar."
+        )
     for aviso in avisos:
         print("AVISO:", aviso)
     return {"resultados": resultados, "avisos": avisos}

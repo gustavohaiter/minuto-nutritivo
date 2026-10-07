@@ -16,3 +16,21 @@
   reviso cena por cena se o termo de busca tem essa ambiguidade e, se tiver,
   removo o alimento secundário do termo ou uso uma variedade/formato mais
   específico (mesma lógica do "navel orange" pra evitar tangerina).
+- **Regras de imagem (definidas pelo usuário, aplicar sempre, todo roteiro):**
+  - Quando o usuário já manda o `imagem_busca` pronto na linha "Imagem:" do
+    roteiro, uso exatamente como veio — não simplifico nem traduzo. Só ajusto
+    se eu mesmo notar a ambiguidade do item acima (dois alimentos citados).
+  - Nunca busco pelo nome em português puro de um alimento cujo nome em
+    inglês pode ser confundido com outra coisa (ex.: "manga" sozinho traz
+    quadrinho japonês e manga de roupa) — sempre uso o termo em inglês
+    correto + "fruit"/"vegetable"/"food" quando fizer sentido.
+  - Orientação paisagem, alta resolução, fundo limpo (já garantido pelo
+    `config.yaml`: `imagens.orientacao: landscape`, `largura_minima`).
+  - Pessoas em destaque, ilustração/desenho, infográfico com texto em outro
+    idioma, logo de marca e texto sobreposto na foto não dá pra filtrar
+    automaticamente (sem modelo de visão) — por isso a folha de contato
+    (abaixo) existe: é o usuário que faz essa checagem final.
+  - **Toda vez que `imagens`/`tudo` roda, gera automaticamente
+    `saida/revisao_imagens.jpg`** (todas as imagens buscadas, numeradas por
+    cena, pra conferência rápida antes da montagem — ver `src/revisao.py`).
+    Isso já é automático, não precisa pedir de novo em cada roteiro.
