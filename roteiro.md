@@ -1,40 +1,40 @@
-# OS BENEFÍCIOS DA MANGA
+# OS BENEFÍCIOS DA MAÇÃ
 Tipo: educativo
-Miniatura: 1 | O NUTRIENTE QUE QUASE NENHUMA FRUTA TEM
+Miniatura: 1 | VOCÊ TÁ JOGANDO FORA A MELHOR PARTE DA MAÇÃ
 
 ## Cena 01
-- narracao: Ela é doce, é tropical, e muita gente evita achando que engorda. Mas a manga tem um nutriente que quase nenhuma outra fruta entrega na mesma quantidade.
-- imagem_busca: ripe mango fruit whole tropical
+- narracao: Tem um ditado que diz que uma maçã por dia mantém o médico longe. É exagero, claro. Mas a ciência explica por que esse ditado existe há mais de cem anos.
+- imagem_busca: red apples wooden table fruit
 - curto: sim
 
 ## Cena 02
-- narracao: Aquele alaranjado forte da polpa é betacaroteno, que o corpo transforma em vitamina A. Ela é essencial para a visão, principalmente a visão noturna, para a pele e para a imunidade.
-- imagem_busca: mango sliced orange flesh close up
-- curto: sim
+- narracao: O destaque dela é a pectina, uma fibra solúvel que vira uma espécie de gel no intestino. Esse gel ajuda a segurar parte do colesterol e a deixar a absorção do açúcar mais lenta.
+- imagem_busca: apple sliced cross section seeds
 
 ## Cena 03
-- narracao: E tem mais: uma manga média já cobre boa parte da vitamina C do dia, aquela que ajuda na defesa do organismo e na produção de colágeno.
-- imagem_busca: mango cubes bowl fresh fruit
+- narracao: É por isso que a maçã, mesmo sendo doce, não provoca aquele pico de açúcar. A fibra segura o ritmo. Fruta inteira funciona bem; suco de maçã, sem a fibra, é outra história.
+- imagem_busca: apple juice glass beside whole apple
 
 ## Cena 04
-- narracao: A manga ainda tem enzimas que ajudam a quebrar as proteínas, além de fibras que regulam o intestino. É por isso que ela cai bem depois de uma refeição mais pesada.
-- imagem_busca: mango dessert plate tropical fruit
+- narracao: E não descasque. É na casca que estão os antioxidantes, principalmente a quercetina, além de boa parte da fibra. Descascar a maçã é jogar fora metade do motivo de comer ela.
+- imagem_busca: apple peel close up red skin
+- curto: sim
 
 ## Cena 05
-- narracao: Agora, sobre o medo de engordar: uma manga média tem mais ou menos as calorias de duas bananas. É doce, sim, mas vem com fibra, água e vitaminas. Fruta com açúcar natural não é o mesmo que doce industrializado.
-- imagem_busca: mango and banana comparison fruit table
+- narracao: Aquela mesma fibra alimenta as bactérias boas do intestino e dá saciedade. Uma maçã antes do almoço costuma segurar bem a fome, com pouquíssimas calorias.
+- imagem_busca: person eating apple outdoors fruit
 
 ## Cena 06
-- narracao: Como saber se está no ponto? Não vá pela cor, que muda de variedade para variedade. Aperte de leve perto do cabinho e cheire ali: manga madura tem perfume doce e cede um pouquinho ao toque.
-- imagem_busca: hand choosing mango market fruit stall
+- narracao: Para não escurecer depois de cortada, uma gota de limão resolve. E guarde a maçã longe das outras frutas: ela libera um gás que acelera o amadurecimento da vizinhança inteira.
+- imagem_busca: sliced apple on cutting board kitchen
 
 ## Cena 07
-- narracao: Dois avisos. Por ser doce, quem tem diabetes deve controlar a porção. E a casca e a seiva da manga têm um composto parecido com o da hera venenosa, então quem é sensível pode ter irritação na pele ou na boca. Se for o seu caso, descasque com luva.
-- imagem_busca: doctor consultation patient talking
+- narracao: Um aviso: as sementes contêm um composto que libera cianeto quando mastigadas. Engolir uma ou outra sem querer não faz mal, mas não é para triturar um punhado delas de propósito.
+- imagem_busca: apple core seeds close up
 - aviso_tela: Conteúdo informativo. Não substitui orientação médica.
 - curto: sim
 
 ## Cena 08
-- narracao: In natura, na vitamina ou até na salada: é das frutas mais completas que a nossa terra dá. E está aí, barata, boa parte do ano.
-- imagem_busca: mango smoothie glass tropical
+- narracao: Barata, dura semanas na geladeira e cabe na bolsa. Só não tire a casca.
+- imagem_busca: apples in basket fresh fruit
 - curto: sim
