@@ -1,45 +1,44 @@
-# OS BENEFÍCIOS DO MORANGO
+# OS BENEFÍCIOS DA JABUTICABA
 Tipo: educativo
-Miniatura: 7 | ANTES DE COMER MORANGO, FAÇA ISSO
+Miniatura: 1 | PARE DE CUSPIR A CASCA DA JABUTICABA
 
 ## Cena 01
-- narracao: Ele é doce, é sobremesa, e mesmo assim é uma das frutas com menos açúcar que existe. O morango engana bem.
-- imagem_busca: fresh strawberries wooden table fruit
+- narracao: É uma fruta genuinamente brasileira, nasce grudada no tronco da árvore e dura pouquíssimos dias. E a parte que quase todo mundo cospe é a mais poderosa dela.
+- imagem_busca: jabuticaba fruit growing on tree trunk brazil
 - curto: sim
 
 ## Cena 02
-- narracao: Começando pelo que surpreende: morango tem mais vitamina C que laranja, se você comparar o mesmo peso. Uma xícara já cobre a necessidade do dia inteiro.
-- imagem_busca: strawberries bowl close up red
+- narracao: A casca roxa quase preta é riquíssima em antocianinas, os mesmos antioxidantes das uvas escuras, só que em concentração ainda maior. Cuspir a casca é jogar fora o melhor da fruta.
+- imagem_busca: jabuticaba dark purple skin close up brazil
+- curto: sim
 
 ## Cena 03
-- narracao: Aquele vermelho intenso vem das antocianinas, antioxidantes que vêm sendo estudados pela ligação com a saúde do coração e dos vasos sanguíneos.
-- imagem_busca: strawberry sliced macro red flesh
+- narracao: Esses compostos vêm sendo estudados pela ligação com a saúde do coração, ajudando no controle da pressão e na proteção dos vasos sanguíneos.
+- imagem_busca: blood pressure monitor table checkup
 
 ## Cena 04
-- narracao: E aqui está o ponto que quase ninguém sabe: além de ter pouco açúcar, há pesquisas sugerindo que os compostos do morango ajudam o corpo a lidar melhor com o açúcar de outros alimentos da mesma refeição.
-- imagem_busca: fresh strawberries breakfast bowl
-- curto: sim
+- narracao: Pesquisas brasileiras com extrato da casca também apontam efeito anti-inflamatório e melhora em marcadores ligados ao açúcar no sangue. São estudos ainda iniciais, mas promissores.
+- imagem_busca: laboratory research scientist food science
 
 ## Cena 05
-- narracao: Uma xícara de morango tem menos calorias que uma banana pequena, com fibra e bastante água. É das sobremesas mais honestas que existem.
-- imagem_busca: strawberry dessert plate fresh fruit
+- narracao: Fora isso, ela entrega vitamina C, fibras que ajudam o intestino e minerais como ferro e potássio. E tem pouca caloria para o quanto satisfaz.
+- imagem_busca: jabuticaba fruit bowl brazilian harvest
 
 ## Cena 06
-- narracao: Duas dicas importantes. Só lave na hora de comer: molhar antes de guardar faz mofar em um dia. E não tire o cabinho antes de lavar, porque a água entra e leva o sabor embora.
-- imagem_busca: washing strawberries colander water
+- narracao: Então o ideal é mastigar a casca junto, não só espremer a polpa. Se achar muito adstringente, bata a fruta inteira no liquidificador e coe só as sementes, ou faça geleia usando a casca.
+- imagem_busca: jabuticaba jam jar homemade brazilian
 
 ## Cena 07
-- narracao: E vale saber: o morango é uma das frutas com mais resíduos de agrotóxico. Lave bem, deixe de molho em água com vinagre por uns 15 minutos e enxágue. Se puder pagar o orgânico, aqui é onde vale mais a pena.
-- imagem_busca: strawberries soaking in bowl of water
-- curto: sim
+- narracao: E tem a pressa: jabuticaba estraga em três ou quatro dias depois de colhida. É por isso que ela quase não chega ao mercado longe de onde nasce. Se encontrar, aproveite na hora ou congele.
+- imagem_busca: jabuticaba fresh harvest basket brazil
 
 ## Cena 08
-- narracao: Um aviso: ele está entre as frutas que mais causam alergia, principalmente em crianças pequenas. Se aparecer coceira ou manchas na pele, procure um médico.
+- narracao: Um aviso: as sementes não devem ser trituradas, e crianças pequenas precisam de atenção pelo risco de engasgo. Quem tem restrição de açúcar deve observar a porção, já que ela é bem docinha.
 - imagem_busca: doctor consultation patient talking
 - aviso_tela: Conteúdo informativo. Não substitui orientação médica.
 - curto: sim
 
 ## Cena 09
-- narracao: Doce, leve e cheio de vitamina C. Só lembra: lava na hora, nunca antes de guardar.
-- imagem_busca: strawberries basket fresh harvest
+- narracao: Nossa, brasileira e cheia de antioxidante. Da próxima vez que pegar um punhado no pé, come a casca junto.
+- imagem_busca: jabuticaba tree brazilian backyard fruit
 - curto: sim

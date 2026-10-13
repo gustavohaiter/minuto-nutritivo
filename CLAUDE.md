@@ -35,3 +35,10 @@
     `saida/revisao_imagens.jpg`** (todas as imagens buscadas, numeradas por
     cena, pra conferência rápida antes da montagem — ver `src/revisao.py`).
     Isso já é automático, não precisa pedir de novo em cada roteiro.
+  - **Alimento regional/pouco conhecido fora do Brasil (ex.: jabuticaba,
+    caju, açaí, cupuaçu)**: o banco de imagens tem pouco acervo e às vezes
+    devolve fruta parecida errada (jabuticaba -> uva ou mirtilo). Sempre
+    incluo "brazil"/"brazilian" no termo de busca dessas cenas — todas,
+    não só a primeira — e aviso o usuário no fim pra conferir a folha de
+    contato com atenção redobrada nelas, já indicando que pode precisar
+    cair pra imagem manual (`imagens_manuais/<id_da_cena>.jpg`).
