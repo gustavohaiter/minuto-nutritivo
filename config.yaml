@@ -2,10 +2,11 @@
 # Ajuste os valores aqui entre um vídeo e outro; as chaves de API ficam no .env
 
 voz:
-  motor: "edge-tts"        # "elevenlabs" (paga, mais natural) ou "edge-tts" (100% grátis, sem chave)
+  motor: "elevenlabs"      # edge-tts com problema de conexão persistente (403 em 3 redes
+                            # diferentes) — trocado pra elevenlabs até isso se resolver
 
   elevenlabs:
-    voice_id: ""
+    voice_id: "fhtZMBwha5du5OxuvexO"
     model_id: "eleven_multilingual_v2"
     stability: 0.5
     similarity_boost: 0.75
