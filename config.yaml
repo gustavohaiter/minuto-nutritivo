@@ -6,7 +6,7 @@ voz:
                             # diferentes) — trocado pra elevenlabs até isso se resolver
 
   elevenlabs:
-    voice_id: "fhtZMBwha5du5OxuvexO"
+    voice_id: "Xb7hH8MSUJpSbSDYk0k2"
     model_id: "eleven_multilingual_v2"
     stability: 0.5
     similarity_boost: 0.75
