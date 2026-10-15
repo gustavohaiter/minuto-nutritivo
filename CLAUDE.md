@@ -43,6 +43,13 @@
     pergunto: essa palavra, sozinha, me faria pensar em outra fruta? Se sim,
     troco por um termo mais genérico/descritivo (ex.: "rind", "inner layer",
     "skin cross section") que não carrega esse viés.
+  - **Pra corrigir imagem de UMA cena errada, uso `python main.py imagens --forcar` (ou
+    `--cenas N` pra uma só)** — nunca `python main.py tudo --forcar`. O `--forcar` do
+    `tudo` força narração E imagem juntos, nas duas passagens (vídeo normal + Short),
+    e a narração via ElevenLabs é paga por caractere: reforçar ela sem o texto ter
+    mudado é desperdício puro de créditos (foi o que estourou a cota num vídeo em
+    que só a imagem da cena 3 precisava ser refeita). `--forcar-narracao` existe
+    separado, só pra quando realmente for preciso regenerar áudio com o texto igual.
   - **Alimento regional/pouco conhecido fora do Brasil (ex.: jabuticaba,
     caju, açaí, cupuaçu)**: o banco de imagens tem pouco acervo e às vezes
     devolve fruta parecida errada (jabuticaba -> uva ou mirtilo). Sempre

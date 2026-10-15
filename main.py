@@ -273,11 +273,11 @@ def _rodar_montagem(cenas, cfg, timeline, resultados_imagens, duracao_total, ass
     return video_final
 
 
-def _gerar_saida_completa(cenas, cfg, forcar, saida_dir, tmp_dir, rotulo):
+def _gerar_saida_completa(cenas, cfg, forcar_imagens, forcar_narracao, saida_dir, tmp_dir, rotulo):
     print(f"\n=== {rotulo} ({len(cenas)} cena(s)) ===")
     saida_dir.mkdir(parents=True, exist_ok=True)
-    resultado_narr = _rodar_narracao(cenas, cfg, forcar, saida_dir)
-    resultado_img = _rodar_imagens(cenas, cfg, forcar, saida_dir)
+    resultado_narr = _rodar_narracao(cenas, cfg, forcar_narracao, saida_dir)
+    resultado_img = _rodar_imagens(cenas, cfg, forcar_imagens, saida_dir)
     ass_path = _rodar_legendas(resultado_narr["timeline"], cfg, saida_dir)
     video_final = _rodar_montagem(
         cenas, cfg, resultado_narr["timeline"], resultado_img["resultados"],
@@ -288,7 +288,7 @@ def _gerar_saida_completa(cenas, cfg, forcar, saida_dir, tmp_dir, rotulo):
 
 def cmd_narracao(args, cfg):
     cenas = _carregar_cenas_selecionadas(cfg, args.cenas)
-    _rodar_narracao(cenas, cfg, args.forcar, configmod.caminho(cfg, "saida"))
+    _rodar_narracao(cenas, cfg, args.forcar_narracao, configmod.caminho(cfg, "saida"))
 
 
 def cmd_imagens(args, cfg):
@@ -355,14 +355,14 @@ def cmd_tudo(args, cfg):
     saida_dir = configmod.caminho(cfg, "saida")
     tmp_dir = configmod.caminho(cfg, "cache") / "tmp_montagem"
 
-    _gerar_saida_completa(cenas, cfg, args.forcar, saida_dir, tmp_dir, "Vídeo normal")
+    _gerar_saida_completa(cenas, cfg, args.forcar, args.forcar_narracao, saida_dir, tmp_dir, "Vídeo normal")
 
     cenas_curto = [c for c in cenas if c.get("curto")]
     if cenas_curto:
         saida_curto = saida_dir / "curto"
         tmp_curto = configmod.caminho(cfg, "cache") / "tmp_montagem_curto"
         _, duracao_curto = _gerar_saida_completa(
-            cenas_curto, _cfg_para_curto(cfg), args.forcar, saida_curto, tmp_curto, "Short"
+            cenas_curto, _cfg_para_curto(cfg), args.forcar, args.forcar_narracao, saida_curto, tmp_curto, "Short"
         )
 
         limite = cfg["shorts"]["duracao_maxima_segundos"]
@@ -471,7 +471,16 @@ def main():
 
     def add_cenas_forcar(p):
         p.add_argument("--cenas", default=None, help='Ex.: "1-4" ou "1,3,5". Padrão: todas.')
-        p.add_argument("--forcar", action="store_true", help="Ignora o cache e regenera tudo.")
+        p.add_argument("--forcar", action="store_true", help="Ignora o cache de imagens e busca de novo.")
+        p.add_argument(
+            "--forcar-narracao",
+            action="store_true",
+            help=(
+                "Ignora o cache de narração e gera de novo via ElevenLabs/edge-tts, mesmo com o texto "
+                "igual. Raramente necessário — o cache já invalida sozinho quando o texto ou a voz "
+                "mudam; isso aqui gasta créditos pagos (ElevenLabs) de novo sem necessidade."
+            ),
+        )
 
     sub.add_parser("parse", help="roteiro.md -> cenas.json")
 
