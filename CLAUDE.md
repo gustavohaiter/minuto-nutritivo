@@ -37,12 +37,19 @@
     Isso já é automático, não precisa pedir de novo em cada roteiro.
   - **Nunca usar termo técnico/botânico fortemente associado a OUTRA fruta
     específica**, mesmo com o nome do alimento principal junto no termo (ex.:
-    "pith" é quase só usado pra citros — "passion fruit ... pith" devolveu
-    casca de laranja/limão em vez de maracujá, igual o problema do
+    "pith" e "rind" são quase só usados pra citros/melancia/melão — "passion
+    fruit ... pith" e depois "passion fruit ... rind" devolveram os dois
+    casca de outra fruta em vez de maracujá, igual o problema do
     "lemon"/"olive oil" com abacate). Antes de fechar o termo de busca,
     pergunto: essa palavra, sozinha, me faria pensar em outra fruta? Se sim,
-    troco por um termo mais genérico/descritivo (ex.: "rind", "inner layer",
-    "skin cross section") que não carrega esse viés.
+    não troco por outro sinônimo técnico (que pode ter o mesmo viés) — vou
+    direto pra regra abaixo.
+  - **Depois de 2 tentativas de busca erradas pra mesma cena, paro de
+    adivinhar palavra-chave e já recomendo imagem manual**
+    (`imagens_manuais/<id_da_cena>.jpg`) em vez de propor um terceiro termo —
+    enquadramento muito específico/nichado (ex.: corte transversal mostrando
+    só a parte branca da casca) costuma simplesmente não existir no acervo,
+    então insistir só queima tempo (mesmo padrão da jabuticaba abaixo).
   - **Pra corrigir imagem de UMA cena errada, uso `python main.py imagens --forcar` (ou
     `--cenas N` pra uma só)** — nunca `python main.py tudo --forcar`. O `--forcar` do
     `tudo` força narração E imagem juntos, nas duas passagens (vídeo normal + Short),
