@@ -35,6 +35,14 @@
     `saida/revisao_imagens.jpg`** (todas as imagens buscadas, numeradas por
     cena, pra conferência rápida antes da montagem — ver `src/revisao.py`).
     Isso já é automático, não precisa pedir de novo em cada roteiro.
+  - **Nunca usar termo técnico/botânico fortemente associado a OUTRA fruta
+    específica**, mesmo com o nome do alimento principal junto no termo (ex.:
+    "pith" é quase só usado pra citros — "passion fruit ... pith" devolveu
+    casca de laranja/limão em vez de maracujá, igual o problema do
+    "lemon"/"olive oil" com abacate). Antes de fechar o termo de busca,
+    pergunto: essa palavra, sozinha, me faria pensar em outra fruta? Se sim,
+    troco por um termo mais genérico/descritivo (ex.: "rind", "inner layer",
+    "skin cross section") que não carrega esse viés.
   - **Alimento regional/pouco conhecido fora do Brasil (ex.: jabuticaba,
     caju, açaí, cupuaçu)**: o banco de imagens tem pouco acervo e às vezes
     devolve fruta parecida errada (jabuticaba -> uva ou mirtilo). Sempre

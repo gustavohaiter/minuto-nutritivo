@@ -14,7 +14,7 @@ Miniatura: 1 | O SUCO DE MARACUJÁ NÃO TE ACALMA
 
 ## Cena 03
 - narracao: E tem outra parte subestimada: a casca. A parte branca dela é rica em pectina, uma fibra que vira gel no intestino e ajuda a controlar a absorção de açúcar e de colesterol. É de onde vem a famosa farinha de maracujá.
-- imagem_busca: passion fruit peel white pith close up
+- imagem_busca: passion fruit halved white rind inner layer close up
 
 ## Cena 04
 - narracao: Agora o que a polpa entrega de bom: vitamina C, vitamina A e muita fibra. E aquelas sementes crocantes contam como fibra também, então vale comer em vez de coar tudo.
