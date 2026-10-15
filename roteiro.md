@@ -1,44 +1,40 @@
-# OS BENEFÍCIOS DA JABUTICABA
+# OS BENEFÍCIOS DO MARACUJÁ
 Tipo: educativo
-Miniatura: 1 | PARE DE CUSPIR A CASCA DA JABUTICABA
+Miniatura: 1 | O SUCO DE MARACUJÁ NÃO TE ACALMA
 
 ## Cena 01
-- narracao: É uma fruta genuinamente brasileira, nasce grudada no tronco da árvore e dura pouquíssimos dias. E a parte que quase todo mundo cospe é a mais poderosa dela.
-- imagem_busca: jabuticaba fruit growing on tree trunk brazil
+- narracao: Todo mundo diz que maracujá acalma. Mas quase ninguém sabe que a parte que acalma de verdade não é a que você come.
+- imagem_busca: passion fruit whole and halved tropical
 - curto: sim
 
 ## Cena 02
-- narracao: A casca roxa quase preta é riquíssima em antocianinas, os mesmos antioxidantes das uvas escuras, só que em concentração ainda maior. Cuspir a casca é jogar fora o melhor da fruta.
-- imagem_busca: jabuticaba dark purple skin close up brazil
+- narracao: O efeito calmante vem das folhas da planta, usadas em chás e extratos. A polpa, aquela amarelinha do suco, praticamente não tem esses compostos. Tomar suco de maracujá antes de dormir ajuda mais pelo ritual do que pela fruta.
+- imagem_busca: passion fruit leaves vine plant
 - curto: sim
 
 ## Cena 03
-- narracao: Esses compostos vêm sendo estudados pela ligação com a saúde do coração, ajudando no controle da pressão e na proteção dos vasos sanguíneos.
-- imagem_busca: blood pressure monitor table checkup
+- narracao: E tem outra parte subestimada: a casca. A parte branca dela é rica em pectina, uma fibra que vira gel no intestino e ajuda a controlar a absorção de açúcar e de colesterol. É de onde vem a famosa farinha de maracujá.
+- imagem_busca: passion fruit peel white pith close up
 
 ## Cena 04
-- narracao: Pesquisas brasileiras com extrato da casca também apontam efeito anti-inflamatório e melhora em marcadores ligados ao açúcar no sangue. São estudos ainda iniciais, mas promissores.
-- imagem_busca: laboratory research scientist food science
+- narracao: Agora o que a polpa entrega de bom: vitamina C, vitamina A e muita fibra. E aquelas sementes crocantes contam como fibra também, então vale comer em vez de coar tudo.
+- imagem_busca: passion fruit pulp seeds macro yellow
 
 ## Cena 05
-- narracao: Fora isso, ela entrega vitamina C, fibras que ajudam o intestino e minerais como ferro e potássio. E tem pouca caloria para o quanto satisfaz.
-- imagem_busca: jabuticaba fruit bowl brazilian harvest
+- narracao: Essa combinação de fibra com água dá saciedade e ajuda o intestino a funcionar. Tudo isso com pouquíssimas calorias por fruta.
+- imagem_busca: passion fruit juice glass fresh tropical
 
 ## Cena 06
-- narracao: Então o ideal é mastigar a casca junto, não só espremer a polpa. Se achar muito adstringente, bata a fruta inteira no liquidificador e coe só as sementes, ou faça geleia usando a casca.
-- imagem_busca: jabuticaba jam jar homemade brazilian
+- narracao: Como escolher: maracujá enrugado não está estragado, está no ponto. Casca lisa e firme significa fruta ainda verde, com menos suco e mais azeda. E pese na mão, quanto mais pesado, mais polpa.
+- imagem_busca: wrinkled passion fruit market selection
 
 ## Cena 07
-- narracao: E tem a pressa: jabuticaba estraga em três ou quatro dias depois de colhida. É por isso que ela quase não chega ao mercado longe de onde nasce. Se encontrar, aproveite na hora ou congele.
-- imagem_busca: jabuticaba fresh harvest basket brazil
-
-## Cena 08
-- narracao: Um aviso: as sementes não devem ser trituradas, e crianças pequenas precisam de atenção pelo risco de engasgo. Quem tem restrição de açúcar deve observar a porção, já que ela é bem docinha.
+- narracao: Dois avisos. Chá e extrato de folha podem potencializar calmantes e remédios para dormir, então quem usa esse tipo de medicação precisa falar com o médico. E não faça chá caseiro com as folhas por conta própria.
 - imagem_busca: doctor consultation patient talking
 - aviso_tela: Conteúdo informativo. Não substitui orientação médica.
 - curto: sim
 
-## Cena 09
-- narracao: Nossa, brasileira e cheia de antioxidante. Da próxima vez que pegar um punhado no pé, come a casca junto.
-- imagem_busca: jabuticaba tree brazilian backyard fruit
+## Cena 08
+- narracao: Então: come as sementes, aproveita a casca na farinha, e não espera milagre de sono do suco. O maracujá já é bom o bastante sem a lenda.
+- imagem_busca: passion fruit halves plate tropical fruit
 - curto: sim
