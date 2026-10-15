@@ -104,10 +104,12 @@ def cmd_verificar(args, cfg):
     tem_pexels = bool(cfg["_env"]["PEXELS_API_KEY"])
     tem_pixabay = bool(cfg["_env"]["PIXABAY_API_KEY"])
     n_manual = n_stock = n_sem_fonte = 0
+    cenas_com_manual: list[int] = []
     for c in cenas:
         tem_manual = any((manual_dir / f"{c['id']}{ext}").exists() for ext in imagesmod.EXTENSOES_MANUAIS)
         if tem_manual:
             n_manual += 1
+            cenas_com_manual.append(c["numero"])
             continue
         if c["imagem_busca"]:
             if tem_pexels or tem_pixabay:
@@ -126,6 +128,12 @@ def cmd_verificar(args, cfg):
     info_custo = narrationmod.estimar_caracteres(cenas)
     print(f"Cenas: {len(cenas)} | caracteres: {info_custo['total_caracteres']} | marcadas p/ Short: {n_curto}")
     print(f"Imagens: {n_manual} manual(is), {n_stock} via banco de imagens, {n_sem_fonte} sem fonte nenhuma")
+    if cenas_com_manual:
+        avisos.append(
+            f"Cena(s) {', '.join(str(n) for n in cenas_com_manual)} usando imagem de imagens_manuais/ — "
+            "confira se é mesmo pra ESSE roteiro (a numeração de cena recomeça do 1 a cada vídeo novo, "
+            "então arquivo de um roteiro anterior pode colidir sem querer com o atual)."
+        )
     if n_curto == 0:
         avisos.append("Nenhuma cena marcada com 'curto: sim' — só o vídeo normal vai ser gerado, sem Short.")
 
