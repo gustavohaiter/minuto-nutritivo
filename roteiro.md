@@ -3,12 +3,12 @@ Tipo: educativo
 Miniatura: 1 | CHÁ DE MAMÃO NÃO AUMENTA SUA PLAQUETA
 
 ## Cena 01
-- narracao: Tem gente que jura que chá de folha de mamão aumenta plaqueta quando pega dengue. Mas o que realmente vale a pena na fruta nem é a folha — é uma enzima que só o mamão verde tem de verdade.
+- narracao: Tem gente que jura que chá de folha de mamão aumenta plaqueta na dengue. Mas o que vale mesmo não é a folha — é uma enzima do mamão verde.
 - imagem_busca: papaya halved fruit black seeds orange flesh
 - curto: sim
 
 ## Cena 02
-- narracao: Essa enzima se chama papaína. Ela quebra proteína, por isso é usada até pra amaciar carne. E tem muito mais concentração dela no mamão ainda verde do que no maduro — na fruta madura ela praticamente some. Já o chá da folha pra plaqueta não tem comprovação científica consistente, é mais crença popular do que fato.
+- narracao: Essa enzima é a papaína: quebra proteína, por isso amacia carne, e é bem mais concentrada no mamão verde que no maduro. Já o chá da folha não tem comprovação séria.
 - imagem_busca: green unripe papaya fruit whole
 - curto: sim
 
@@ -29,12 +29,12 @@ Miniatura: 1 | CHÁ DE MAMÃO NÃO AUMENTA SUA PLAQUETA
 - imagem_busca: papaya fruit market selection stall
 
 ## Cena 07
-- narracao: Dois avisos. O mamão verde e o látex da casca crua têm compostos que podem estimular contração uterina, então grávidas devem evitar a fruta ainda verde e preferir sempre a madura. E quem tem alergia a látex de borracha pode ter reação cruzada ao mamão — se for o seu caso, converse com um alergista antes.
+- narracao: Dois avisos. O mamão verde e seu látex podem estimular contração uterina — grávidas devem preferir a fruta madura. Quem tem alergia a látex também pode reagir ao mamão.
 - imagem_busca: doctor consultation patient talking
 - aviso_tela: Conteúdo informativo. Não substitui orientação médica.
 - curto: sim
 
 ## Cena 08
-- narracao: Então: aproveite a papaína no mamão ainda meio verde, coma a semente com moderação, e escolha sempre a fruta no ponto certo. Simples assim, sem precisar do chá da folha pra sentir a diferença.
+- narracao: Aproveite a papaína no mamão meio verde, coma a semente com moderação, e escolha a fruta no ponto certo — sem precisar do chá da folha.
 - imagem_busca: papaya fruit halves plate fresh
 - curto: sim
