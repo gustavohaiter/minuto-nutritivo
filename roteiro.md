@@ -1,40 +1,40 @@
-# OS BENEFÍCIOS DO MARACUJÁ
+# OS BENEFÍCIOS DO MAMÃO
 Tipo: educativo
-Miniatura: 1 | O SUCO DE MARACUJÁ NÃO TE ACALMA
+Miniatura: 1 | CHÁ DE MAMÃO NÃO AUMENTA SUA PLAQUETA
 
 ## Cena 01
-- narracao: Todo mundo diz que maracujá acalma. Mas quase ninguém sabe que a parte que acalma de verdade não é a que você come.
-- imagem_busca: passion fruit whole and halved tropical
+- narracao: Tem gente que jura que chá de folha de mamão aumenta plaqueta quando pega dengue. Mas o que realmente vale a pena na fruta nem é a folha — é uma enzima que só o mamão verde tem de verdade.
+- imagem_busca: papaya halved fruit black seeds orange flesh
 - curto: sim
 
 ## Cena 02
-- narracao: O efeito calmante vem das folhas da planta, usadas em chás e extratos. A polpa, aquela amarelinha do suco, praticamente não tem esses compostos. Tomar suco de maracujá antes de dormir ajuda mais pelo ritual do que pela fruta.
-- imagem_busca: passion fruit leaves vine plant
+- narracao: Essa enzima se chama papaína. Ela quebra proteína, por isso é usada até pra amaciar carne. E tem muito mais concentração dela no mamão ainda verde do que no maduro — na fruta madura ela praticamente some. Já o chá da folha pra plaqueta não tem comprovação científica consistente, é mais crença popular do que fato.
+- imagem_busca: green unripe papaya fruit whole
 - curto: sim
 
 ## Cena 03
-- narracao: E tem outra parte subestimada: a casca. A parte branca dela é rica em pectina, uma fibra que vira gel no intestino e ajuda a controlar a absorção de açúcar e de colesterol. É de onde vem a famosa farinha de maracujá.
-- imagem_busca: passion fruit halved white rind inner layer close up
+- narracao: Já o mamão maduro brilha em outra coisa: é rico em vitamina C, vitamina A — aquele laranja intenso vem do betacaroteno —, ácido fólico e fibra, com poucas calorias por porção.
+- imagem_busca: ripe papaya fruit orange flesh sliced
 
 ## Cena 04
-- narracao: Agora o que a polpa entrega de bom: vitamina C, vitamina A e muita fibra. E aquelas sementes crocantes contam como fibra também, então vale comer em vez de coar tudo.
-- imagem_busca: passion fruit pulp seeds macro yellow
+- narracao: E as sementes pretas não são pra jogar fora: têm gosto picante parecido com pimenta, dá pra secar e moer como tempero, e tradicionalmente são usadas contra parasitas intestinais — mas sem exagero, só uma pitada por vez.
+- imagem_busca: papaya seeds black macro close up
 
 ## Cena 05
-- narracao: Essa combinação de fibra com água dá saciedade e ajuda o intestino a funcionar. Tudo isso com pouquíssimas calorias por fruta.
-- imagem_busca: passion fruit juice glass fresh tropical
+- narracao: O mamão verde também vira prato salgado: picado em tiras, ele é a base da salada tailandesa de mamão verde, e no Brasil aparece refogado ou em conserva — o amargor e a textura crocante vêm justamente da papaína ainda ativa.
+- imagem_busca: green papaya salad shredded
 
 ## Cena 06
-- narracao: Como escolher: maracujá enrugado não está estragado, está no ponto. Casca lisa e firme significa fruta ainda verde, com menos suco e mais azeda. E pese na mão, quanto mais pesado, mais polpa.
-- imagem_busca: wrinkled passion fruit market selection
+- narracao: Na hora de escolher: procure casca com manchas amarelas, cheiro doce perto do cabinho e que ceda um pouco ao toque. Casca totalmente verde e dura é fruta ainda crua; mole demais ou com manchas escuras já passou do ponto.
+- imagem_busca: papaya fruit market selection stall
 
 ## Cena 07
-- narracao: Dois avisos. Chá e extrato de folha podem potencializar calmantes e remédios para dormir, então quem usa esse tipo de medicação precisa falar com o médico. E não faça chá caseiro com as folhas por conta própria.
+- narracao: Dois avisos. O mamão verde e o látex da casca crua têm compostos que podem estimular contração uterina, então grávidas devem evitar a fruta ainda verde e preferir sempre a madura. E quem tem alergia a látex de borracha pode ter reação cruzada ao mamão — se for o seu caso, converse com um alergista antes.
 - imagem_busca: doctor consultation patient talking
 - aviso_tela: Conteúdo informativo. Não substitui orientação médica.
 - curto: sim
 
 ## Cena 08
-- narracao: Então: come as sementes, aproveita a casca na farinha, e não espera milagre de sono do suco. O maracujá já é bom o bastante sem a lenda.
-- imagem_busca: passion fruit halves plate tropical fruit
+- narracao: Então: aproveite a papaína no mamão ainda meio verde, coma a semente com moderação, e escolha sempre a fruta no ponto certo. Simples assim, sem precisar do chá da folha pra sentir a diferença.
+- imagem_busca: papaya fruit halves plate fresh
 - curto: sim
