@@ -137,7 +137,16 @@ def _elevenlabs_listar_vozes(api_key: str) -> list[dict[str, Any]]:
     for v in resp.json().get("voices", []):
         labels = v.get("labels", {})
         extra = f"{labels.get('language', '')} {labels.get('description', '') or labels.get('accent', '')}".strip()
-        normalizadas.append({"id": v["voice_id"], "nome": v.get("name", ""), "extra": extra})
+        normalizadas.append({
+            "id": v["voice_id"],
+            "nome": v.get("name", ""),
+            "extra": extra,
+            # "premade" são as vozes padrão que já vêm com a conta — as únicas
+            # que planos gratuitos conseguem usar pela API (vozes adicionadas
+            # da biblioteca/Explorar, mesmo que apareçam em "Minhas Vozes",
+            # ficam bloqueadas pela API no plano grátis a partir de 14/10/2025)
+            "categoria": v.get("category", ""),
+        })
     return normalizadas
 
 

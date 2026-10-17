@@ -170,11 +170,16 @@ def cmd_vozes(args, cfg):
         print("Nenhuma voz encontrada.")
         return
     for v in vozes:
-        print(f"{v['id']:<28} |  {v['nome']:<24} |  {v['extra']}")
+        categoria = f" |  {v['categoria']}" if v.get("categoria") else ""
+        print(f"{v['id']:<28} |  {v['nome']:<24} |  {v['extra']}{categoria}")
     if motor == "edge-tts":
         print("\nCopie o id (ex.: pt-BR-FranciscaNeural) para voz.edge_tts.voice em config.yaml.")
     else:
         print("\nCopie o id desejado para voz.elevenlabs.voice_id em config.yaml.")
+        print(
+            "No plano gratuito, só vozes com categoria 'premade' funcionam pela API "
+            "(as outras, mesmo salvas em 'Minhas Vozes', ficam bloqueadas) — escolha uma dessas."
+        )
 
 
 def _rodar_narracao(cenas, cfg, forcar, saida_dir):
