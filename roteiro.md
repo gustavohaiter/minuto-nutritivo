@@ -1,40 +1,40 @@
-# OS BENEFÍCIOS DO MAMÃO
+# OS BENEFÍCIOS DO MANJERICÃO
 Tipo: educativo
-Miniatura: 1 | CHÁ DE MAMÃO NÃO AUMENTA SUA PLAQUETA
+Miniatura: 1 | O ERRO QUE TODO MUNDO COMETE COM O MANJERICÃO
 
 ## Cena 01
-- narracao: Tem gente que jura que chá de folha de mamão aumenta plaqueta na dengue. Mas o que vale mesmo não é a folha — é uma enzima do mamão verde.
-- imagem_busca: papaya halved fruit black seeds orange flesh
+- narracao: Ele é a folha mais cheirosa da horta. E quase todo mundo erra na hora de usar, jogando fora o que ele tem de melhor.
+- imagem_busca: fresh basil leaves plant herb
 - curto: sim
 
 ## Cena 02
-- narracao: Essa enzima é a papaína: quebra proteína, por isso amacia carne, e é bem mais concentrada no mamão verde que no maduro. Já o chá da folha não tem comprovação séria.
-- imagem_busca: green unripe papaya fruit whole
-- curto: sim
+- narracao: Aquele perfume forte vem dos óleos essenciais, principalmente o eugenol. São eles que carregam os compostos anti-inflamatórios e antibacterianos estudados na planta. E eles evaporam com o calor.
+- imagem_busca: basil leaves macro texture green herb
 
 ## Cena 03
-- narracao: Já o mamão maduro brilha em outra coisa: é rico em vitamina C, vitamina A — aquele laranja intenso vem do betacaroteno —, ácido fólico e fibra, com poucas calorias por porção.
-- imagem_busca: ripe papaya fruit orange flesh sliced
+- narracao: O erro é jogar o manjericão no molho logo no começo. O certo é colocar no final, com o fogo desligado, ou cru por cima do prato — assim o aroma fica.
+- imagem_busca: basil leaves garnish dish finishing
+- curto: sim
 
 ## Cena 04
-- narracao: E as sementes pretas não são pra jogar fora: têm gosto picante parecido com pimenta, dá pra secar e moer como tempero, e tradicionalmente são usadas contra parasitas intestinais — mas sem exagero, só uma pitada por vez.
-- imagem_busca: papaya seeds black macro close up
+- narracao: Além disso, ele é rico em antioxidantes e em vitamina K, importante para a coagulação do sangue e para a saúde dos ossos. Em pouca quantidade, mas é tempero, não salada.
+- imagem_busca: basil bunch fresh green herbs
 
 ## Cena 05
-- narracao: O mamão verde também vira prato salgado: picado em tiras, ele é a base da salada tailandesa de mamão verde, e no Brasil aparece refogado ou em conserva — o amargor e a textura crocante vêm justamente da papaína ainda ativa.
-- imagem_busca: green papaya salad shredded
+- narracao: Na tradição, o chá das folhas é usado para enjoo e desconforto digestivo. A pesquisa ainda é limitada, mas os compostos aromáticos de fato têm ação relaxante sobre o sistema digestivo.
+- imagem_busca: basil tea cup herbal infusion
 
 ## Cena 06
-- narracao: Na hora de escolher: procure casca com manchas amarelas, cheiro doce perto do cabinho e que ceda um pouco ao toque. Casca totalmente verde e dura é fruta ainda crua; mole demais ou com manchas escuras já passou do ponto.
-- imagem_busca: papaya fruit market selection stall
+- narracao: Duas dicas: não guarde na geladeira, porque o frio escurece as folhas. Deixe o maço num copo com água, como se fosse flor. E colha sempre as pontas, nunca folha por folha, que assim a planta cresce mais.
+- imagem_busca: basil stems glass of water kitchen
 
 ## Cena 07
-- narracao: Dois avisos. O mamão verde e seu látex podem estimular contração uterina — grávidas devem preferir a fruta madura. Quem tem alergia a látex também pode reagir ao mamão.
+- narracao: Um aviso: por ter vitamina K, quem usa anticoagulante deve manter o consumo constante, sem exagero de uma vez. E óleo essencial de manjericão é concentrado — não ingira sem orientação.
 - imagem_busca: doctor consultation patient talking
 - aviso_tela: Conteúdo informativo. Não substitui orientação médica.
 - curto: sim
 
 ## Cena 08
-- narracao: Aproveite a papaína no mamão meio verde, coma a semente com moderação, e escolha a fruta no ponto certo — sem precisar do chá da folha.
-- imagem_busca: papaya fruit halves plate fresh
+- narracao: A regra de ouro: manjericão entra por último, com o fogo desligado, folha fresca por cima. Só isso já muda tudo.
+- imagem_busca: basil plant pot kitchen window herb
 - curto: sim
