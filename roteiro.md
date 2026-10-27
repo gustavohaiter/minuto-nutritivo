@@ -1,44 +1,45 @@
-# OS BENEFÍCIOS DA MELANCIA
+# OS BENEFÍCIOS DA UVA
 Tipo: educativo
-Miniatura: 1 | VOCÊ JOGA FORA A MELHOR PARTE DA MELANCIA
+Miniatura: 1 | A PARTE DA UVA QUE TEM MAIS BENEFÍCIO
 
 ## Cena 01
-- narracao: A parte branca que você corta e joga fora é, em alguns aspectos, a mais valiosa da melancia. Tem gente no mundo todo comendo justamente ela.
-- imagem_busca: watermelon slices red white rind fruit
+- narracao: Tem uma parte da uva que quase todo mundo evita — é dali que vem quase todo o benefício.
+- imagem_busca: dark purple grapes bunch fruit
 - curto: sim
 
 ## Cena 02
-- narracao: Começando pelo óbvio: ela é mais de 90% água, com potássio e magnésio junto. É das melhores formas de repor líquido comendo, principalmente no calor e depois de atividade física.
-- imagem_busca: watermelon summer refreshing fruit table
-
-## Cena 03
-- narracao: E aquele vermelho forte vem do licopeno, o mesmo antioxidante do tomate, ligado à saúde do coração. A melancia é uma das frutas com mais licopeno que existe, e aqui não precisa cozinhar.
-- imagem_busca: watermelon flesh red close up macro fruit
-
-## Cena 04
-- narracao: É na parte branca que fica a citrulina, aminoácido que vira óxido nítrico no corpo — relaxa os vasos e melhora o fluxo de sangue. Por isso aparece em estudos sobre pressão e desempenho físico.
-- imagem_busca: watermelon white rind part close up fruit
+- narracao: É a casca e a semente: ali estão o resveratrol e os polifenóis, ligados à proteção dos vasos. A polpa é só água e açúcar.
+- imagem_busca: grape skin seeds close up macro fruit
 - curto: sim
 
+## Cena 03
+- narracao: E a cor entrega o jogo: uva escura, roxa ou preta, tem muito mais antioxidante que a verde. Quanto mais escura a casca, mais concentrado o benefício.
+- imagem_busca: green and purple grapes comparison fruit
+
+## Cena 04
+- narracao: É daí que vem a fama ligada ao vinho tinto. Só que o efeito estudado vem da uva, não do álcool. Suco de uva integral escuro entrega os mesmos compostos sem esse lado.
+- imagem_busca: grape juice glass dark purple fruit
+
 ## Cena 05
-- narracao: E dá para usar: a casca branca vira doce, vai batida no suco com a polpa ou é refogada como abobrinha. Cortada bem fininha, nem se percebe.
-- imagem_busca: watermelon rind preserve brazilian recipe
+- narracao: Um alerta: as doses usadas nos estudos de resveratrol são bem maiores do que você comeria em uva. Não espere milagre de um cachinho por dia.
+- imagem_busca: laboratory research food science
+- curto: sim
 
 ## Cena 06
-- narracao: Tudo isso com pouquíssima caloria. Uma fatia grande pesa menos na conta do que a maioria das sobremesas pequenas.
-- imagem_busca: watermelon slices plate dessert fruit
+- narracao: Fora isso, ela entrega vitamina K, potássio e fibra, essa última concentrada também na casca. É lanche prático e satisfatório.
+- imagem_busca: grapes bowl fresh fruit snack
 
 ## Cena 07
-- narracao: Como escolher: procure uma mancha amarelada num dos lados, que é onde ela descansou no chão amadurecendo. Mancha branca significa colhida cedo. E bata de leve: som oco é bom sinal.
-- imagem_busca: choosing watermelon market yellow field spot
+- narracao: Na hora de comprar: olhe o cabinho, que deve estar verde e flexível, não seco. E aquela poeirinha branca na casca não é sujeira, é proteção natural da fruta e sinal de que foi pouco manuseada.
+- imagem_busca: grapes white powdery coating skin market
 
 ## Cena 08
-- narracao: Dois avisos: ela é doce, então quem controla açúcar deve atentar à porção. E quem tem doença renal precisa de orientação médica, por causa do potássio.
+- narracao: Dois avisos: uva tem bastante açúcar — diabéticos, atenção à porção. E uva inteira é risco de engasgo em crianças — corte ao meio.
 - imagem_busca: doctor consultation patient talking
 - aviso_tela: Conteúdo informativo. Não substitui orientação médica.
 - curto: sim
 
 ## Cena 09
-- narracao: Então: corta menos, aproveita o branquinho, e procura a manchinha amarela na hora de comprar.
-- imagem_busca: watermelon whole fresh fruit market
+- narracao: Escolha a escura, coma a casca e a semente junto, e não lave antes de guardar.
+- imagem_busca: purple grapes fresh bunch fruit table
 - curto: sim
