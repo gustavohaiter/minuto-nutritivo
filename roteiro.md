@@ -1,44 +1,44 @@
-# OS BENEFÍCIOS DA MANDIOCA
+# OS BENEFÍCIOS DO AÇAFRÃO (CÚRCUMA)
 Tipo: educativo
-Miniatura: 1 | MANDIOCA MANSA X BRAVA: A DIFERENÇA QUE IMPORTA
+Miniatura: 1 | O AÇAFRÃO DA SUA COZINHA NÃO É AÇAFRÃO
 
 ## Cena 01
-- narracao: Ela alimenta o Brasil há séculos, desde antes dos portugueses. Mas existe um tipo de mandioca tóxico se comido cru, e saber diferenciar importa.
-- imagem_busca: cassava root manioc vegetable brazil
+- narracao: Aquele pó amarelo que você chama de açafrão provavelmente não é açafrão. E a boa notícia: o que você tem em casa é mais estudado que o verdadeiro.
+- imagem_busca: turmeric powder root ground spice
 - curto: sim
 
 ## Cena 02
-- narracao: Começando pelo principal: a mandioca é energia densa. Tem mais carboidrato que a batata e, por ser rica em amido resistente quando cozida e resfriada, parte dela alimenta as bactérias boas do intestino em vez de virar açúcar rápido.
-- imagem_busca: boiled cassava cooked vegetable plate brazil
-
-## Cena 03
-- narracao: E ela é naturalmente livre de glúten. É por isso que a farinha e o polvilho viraram alternativa real para quem tem doença celíaca: pão de queijo, tapioca, biscoito, tudo saindo da mesma raiz.
-- imagem_busca: tapioca crepe brazilian food cassava
-
-## Cena 04
-- narracao: Ela entrega vitamina C, potássio e manganês. Não é uma campeã de vitaminas, mas é das fontes de energia mais baratas e acessíveis que existem, e isso tem valor.
-- imagem_busca: cassava roots market stall brazil vegetable
-
-## Cena 05
-- narracao: E tem a parte que muita gente desconhece: as folhas. Elas são ricas em proteína e ferro, e viram a maniçoba. Mas atenção: precisam de dias de cozimento para serem seguras, nunca se come cru.
-- imagem_busca: cassava leaves plant green brazil
-
-## Cena 06
-- narracao: Agora a parte importante. Existem dois grupos: a mansa, que é a de mesa, a aipim, o macaxeira, segura depois de cozida. E a brava, usada na indústria para farinha, que tem muito mais compostos cianogênicos e exige processamento pesado.
-- imagem_busca: cassava flour processing brazil traditional
-
-## Cena 07
-- narracao: A regra é simples: nunca coma mandioca crua, descarte a água do primeiro cozimento e compre de fonte confiável. Cozida direito, ela é segura — e é o que o Brasil come todo dia.
-- imagem_busca: cassava cooking pot boiling water kitchen
+- narracao: O açafrão de verdade vem de uma flor e é a especiaria mais cara do mundo. O que você tem é cúrcuma — o açafrão-da-terra, uma raiz parente do gengibre, barata.
+- imagem_busca: turmeric root fresh rhizome spice
 - curto: sim
 
+## Cena 03
+- narracao: O composto principal dela é a curcumina, uma das substâncias naturais mais pesquisadas do mundo, com milhares de estudos sobre ação anti-inflamatória e antioxidante.
+- imagem_busca: turmeric powder bowl spice close up
+
+## Cena 04
+- narracao: Só que tem um problema grande: a curcumina é mal absorvida pelo corpo. Sozinha, a maior parte passa direto. É aqui que quase todo mundo erra.
+- imagem_busca: turmeric spice sprinkled food cooking
+
+## Cena 05
+- narracao: A piperina da pimenta-do-reino aumenta muito essa absorção. E, como a curcumina é lipossolúvel, ela também precisa de gordura. Por isso a combinação clássica: cúrcuma, uma pitada de pimenta-do-reino e azeite ou leite.
+- imagem_busca: turmeric black pepper oil ingredients spice
+
+## Cena 06
+- narracao: E o que ela faz, de fato? A evidência mais consistente é no alívio do desconforto articular, comparável a medidas leves de rotina. Não substitui tratamento nenhum, mas o efeito aparece nos estudos.
+- imagem_busca: golden milk turmeric drink cup
+
+## Cena 07
+- narracao: Na cozinha: ela tem sabor terroso e tinge tudo. Comece com meia colher de chá no arroz, no feijão ou no ovo. E guarde em pote escuro, porque a luz degrada o pigmento.
+- imagem_busca: turmeric rice dish cooking spice
+
 ## Cena 08
-- narracao: Vale lembrar: por ser rica em carboidrato, quem controla açúcar deve observar a porção. Frita ela ganha gordura — cozida rende muito melhor.
+- narracao: Um aviso: em dose de suplemento, ela pode afinar o sangue e interagir com anticoagulante. Quem tem pedra na vesícula ou vai operar deve falar com o médico. Na comida, é segura.
 - imagem_busca: doctor consultation patient talking
 - aviso_tela: Conteúdo informativo. Não substitui orientação médica.
 - curto: sim
 
 ## Cena 09
-- narracao: Barata, versátil e nossa. Só não come crua, e aproveita que ela dá de tudo: raiz, farinha, goma e folha.
-- imagem_busca: cassava dishes brazilian cuisine table
+- narracao: É cúrcuma, não açafrão. E sempre com uma pitada de pimenta e um fio de gordura — sem isso, você só está colorindo a comida.
+- imagem_busca: turmeric spice jar kitchen counter
 - curto: sim
