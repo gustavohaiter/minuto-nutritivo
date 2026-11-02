@@ -1,44 +1,44 @@
-# OS BENEFÍCIOS DO AÇAFRÃO (CÚRCUMA)
+# OS BENEFÍCIOS DA PÁPRICA
 Tipo: educativo
-Miniatura: 1 | O AÇAFRÃO DA SUA COZINHA NÃO É AÇAFRÃO
+Miniatura: 1 | AS 3 PÁPRICAS SÃO O MESMO PIMENTÃO
 
 ## Cena 01
-- narracao: Aquele pó amarelo que você chama de açafrão provavelmente não é açafrão. E a boa notícia: o que você tem em casa é mais estudado que o verdadeiro.
-- imagem_busca: turmeric powder root ground spice
+- narracao: Páprica doce, defumada e picante não são temperos diferentes — são o mesmo pimentão seco tratado de três formas.
+- imagem_busca: paprika powder spice bowls red
 - curto: sim
 
 ## Cena 02
-- narracao: O açafrão de verdade vem de uma flor e é a especiaria mais cara do mundo. O que você tem é cúrcuma — o açafrão-da-terra, uma raiz parente do gengibre, barata.
-- imagem_busca: turmeric root fresh rhizome spice
+- narracao: A páprica é só pimentão vermelho desidratado e moído. A doce vem do pimentão comum, a picante de variedades mais ardidas, a defumada seca na fumaça da madeira.
+- imagem_busca: dried red peppers hanging spice
 - curto: sim
 
 ## Cena 03
-- narracao: O composto principal dela é a curcumina, uma das substâncias naturais mais pesquisadas do mundo, com milhares de estudos sobre ação anti-inflamatória e antioxidante.
-- imagem_busca: turmeric powder bowl spice close up
+- narracao: Como ela é pimentão concentrado, carrega os carotenoides dele em dose maior por peso, principalmente a capsantina, o pigmento que dá o vermelho e funciona como antioxidante.
+- imagem_busca: paprika powder macro red spice texture
 
 ## Cena 04
-- narracao: Só que tem um problema grande: a curcumina é mal absorvida pelo corpo. Sozinha, a maior parte passa direto. É aqui que quase todo mundo erra.
-- imagem_busca: turmeric spice sprinkled food cooking
+- narracao: Ela também guarda bastante betacaroteno, que vira vitamina A, importante para a visão e para a pele. Com a ressalva honesta: é tempero, você usa uma colher de chá, não um prato.
+- imagem_busca: paprika spoon spice cooking red
 
 ## Cena 05
-- narracao: A piperina da pimenta-do-reino aumenta muito essa absorção. E, como a curcumina é lipossolúvel, ela também precisa de gordura. Por isso a combinação clássica: cúrcuma, uma pitada de pimenta-do-reino e azeite ou leite.
-- imagem_busca: turmeric black pepper oil ingredients spice
+- narracao: E aqui vale o mesmo truque de outros carotenoides: eles precisam de gordura para serem absorvidos. Páprica jogada seca por cima rende bem menos do que dissolvida no azeite ou na manteiga.
+- imagem_busca: paprika oil pan cooking spice
 
 ## Cena 06
-- narracao: E o que ela faz, de fato? A evidência mais consistente é no alívio do desconforto articular, comparável a medidas leves de rotina. Não substitui tratamento nenhum, mas o efeito aparece nos estudos.
-- imagem_busca: golden milk turmeric drink cup
+- narracao: E tem um erro clássico: páprica queima rápido e fica amarga. Nunca jogue na panela muito quente no começo. Tire do fogo, misture no óleo morno e volte. Isso muda o sabor do prato inteiro.
+- imagem_busca: cooking pan low heat spice kitchen
 
 ## Cena 07
-- narracao: Na cozinha: ela tem sabor terroso e tinge tudo. Comece com meia colher de chá no arroz, no feijão ou no ovo. E guarde em pote escuro, porque a luz degrada o pigmento.
-- imagem_busca: turmeric rice dish cooking spice
+- narracao: Guarde em pote fechado, longe da luz e do calor do fogão. A páprica perde cor e aroma rápido. Se o vermelho estiver puxando para o marrom, ela já passou do ponto.
+- imagem_busca: spice jars pantry storage kitchen
 
 ## Cena 08
-- narracao: Um aviso: em dose de suplemento, ela pode afinar o sangue e interagir com anticoagulante. Quem tem pedra na vesícula ou vai operar deve falar com o médico. Na comida, é segura.
+- narracao: Um aviso: a picante tem capsaicina e pode incomodar quem sofre de refluxo ou gastrite. E misturas prontas de tempero costumam vir com bastante sal.
 - imagem_busca: doctor consultation patient talking
 - aviso_tela: Conteúdo informativo. Não substitui orientação médica.
 - curto: sim
 
 ## Cena 09
-- narracao: É cúrcuma, não açafrão. E sempre com uma pitada de pimenta e um fio de gordura — sem isso, você só está colorindo a comida.
-- imagem_busca: turmeric spice jar kitchen counter
+- narracao: Dissolve no óleo, nunca queima, e guarda longe da luz. É pimentão concentrado — merece mais respeito do que recebe.
+- imagem_busca: paprika spice red powder kitchen
 - curto: sim
