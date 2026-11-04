@@ -1,44 +1,44 @@
-# OS BENEFÍCIOS DA PÁPRICA
+# OS BENEFÍCIOS DO ORÉGANO
 Tipo: educativo
-Miniatura: 1 | AS 3 PÁPRICAS SÃO O MESMO PIMENTÃO
+Miniatura: 1 | O ORÉGANO SECO É MELHOR QUE O FRESCO
 
 ## Cena 01
-- narracao: Páprica doce, defumada e picante não são temperos diferentes — são o mesmo pimentão seco tratado de três formas.
-- imagem_busca: paprika powder spice bowls red
+- narracao: Ele é uma das poucas ervas que fica melhor seca do que fresca — e, por peso, é um dos alimentos com mais antioxidante da sua cozinha.
+- imagem_busca: dried oregano herb bowl spice
 - curto: sim
 
 ## Cena 02
-- narracao: A páprica é só pimentão vermelho desidratado e moído. A doce vem do pimentão comum, a picante de variedades mais ardidas, a defumada seca na fumaça da madeira.
-- imagem_busca: dried red peppers hanging spice
+- narracao: Isso acontece porque a secagem concentra os óleos essenciais dele. Com o manjericão é o contrário — o tempo tira o que ele tem de bom. Com o orégano, potencializa.
+- imagem_busca: fresh oregano plant leaves herb
 - curto: sim
 
 ## Cena 03
-- narracao: Como ela é pimentão concentrado, carrega os carotenoides dele em dose maior por peso, principalmente a capsantina, o pigmento que dá o vermelho e funciona como antioxidante.
-- imagem_busca: paprika powder macro red spice texture
+- narracao: Os compostos principais são o carvacrol e o timol. Eles são estudados por ação antibacteriana e antifúngica, e foram usados por séculos justamente para ajudar a conservar alimentos.
+- imagem_busca: oregano dried leaves macro texture herb
 
 ## Cena 04
-- narracao: Ela também guarda bastante betacaroteno, que vira vitamina A, importante para a visão e para a pele. Com a ressalva honesta: é tempero, você usa uma colher de chá, não um prato.
-- imagem_busca: paprika spoon spice cooking red
+- narracao: E ele lidera listas de capacidade antioxidante por grama. A ressalva honesta é a mesma de todo tempero: você usa uma pitada, não uma porção. É um extra, não a base.
+- imagem_busca: oregano sprinkled on food herb
 
 ## Cena 05
-- narracao: E aqui vale o mesmo truque de outros carotenoides: eles precisam de gordura para serem absorvidos. Páprica jogada seca por cima rende bem menos do que dissolvida no azeite ou na manteiga.
-- imagem_busca: paprika oil pan cooking spice
+- narracao: Na tradição mediterrânea ele é usado para ajudar na digestão de pratos pesados. E não é à toa que ele acompanha justamente massa, queijo e carne: os compostos aromáticos ajudam nesse processo.
+- imagem_busca: oregano sprinkled dish italian herb
 
 ## Cena 06
-- narracao: E tem um erro clássico: páprica queima rápido e fica amarga. Nunca jogue na panela muito quente no começo. Tire do fogo, misture no óleo morno e volte. Isso muda o sabor do prato inteiro.
-- imagem_busca: cooking pan low heat spice kitchen
+- narracao: O truque de uso: esfregue o orégano seco entre os dedos antes de jogar no prato. O atrito libera os óleos e o aroma triplica. É de graça e muda o resultado.
+- imagem_busca: hands rubbing dried herbs kitchen
 
 ## Cena 07
-- narracao: Guarde em pote fechado, longe da luz e do calor do fogão. A páprica perde cor e aroma rápido. Se o vermelho estiver puxando para o marrom, ela já passou do ponto.
+- narracao: E guarde longe do fogão. O calor e a luz degradam os óleos. Se o seu orégano já não tem cheiro quando você abre o pote, ele virou só folha seca.
 - imagem_busca: spice jars pantry storage kitchen
 
 ## Cena 08
-- narracao: Um aviso: a picante tem capsaicina e pode incomodar quem sofre de refluxo ou gastrite. E misturas prontas de tempero costumam vir com bastante sal.
+- narracao: Um aviso: óleo essencial de orégano é concentrado e não deve ser ingerido sem orientação. E ele pode afinar o sangue — quem usa anticoagulante deve falar com o médico antes de suplementos.
 - imagem_busca: doctor consultation patient talking
 - aviso_tela: Conteúdo informativo. Não substitui orientação médica.
 - curto: sim
 
 ## Cena 09
-- narracao: Dissolve no óleo, nunca queima, e guarda longe da luz. É pimentão concentrado — merece mais respeito do que recebe.
-- imagem_busca: paprika spice red powder kitchen
+- narracao: Esfrega entre os dedos, guarda longe do fogão, e não sente culpa de usar o seco — aqui ele é melhor mesmo.
+- imagem_busca: oregano jar kitchen counter herb spice
 - curto: sim
