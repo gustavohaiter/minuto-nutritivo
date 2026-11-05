@@ -1,44 +1,44 @@
-# OS BENEFÍCIOS DO ORÉGANO
+# OS BENEFÍCIOS DA RÚCULA
 Tipo: educativo
-Miniatura: 1 | O ORÉGANO SECO É MELHOR QUE O FRESCO
+Miniatura: 1 | O AMARGO DA RÚCULA É O REMÉDIO
 
 ## Cena 01
-- narracao: Ele é uma das poucas ervas que fica melhor seca do que fresca — e, por peso, é um dos alimentos com mais antioxidante da sua cozinha.
-- imagem_busca: dried oregano herb bowl spice
+- narracao: O amargo que faz torcer o nariz pra rúcula é justamente o motivo dela fazer bem. O sabor ruim é o remédio.
+- imagem_busca: arugula rocket leaves fresh salad greens
 - curto: sim
 
 ## Cena 02
-- narracao: Isso acontece porque a secagem concentra os óleos essenciais dele. Com o manjericão é o contrário — o tempo tira o que ele tem de bom. Com o orégano, potencializa.
-- imagem_busca: fresh oregano plant leaves herb
+- narracao: O amargor vem dos glucosinolatos, os mesmos compostos do brócolis e da mostarda — estudados por ativar as enzimas de desintoxicação do corpo.
+- imagem_busca: arugula leaves macro texture greens
 - curto: sim
 
 ## Cena 03
-- narracao: Os compostos principais são o carvacrol e o timol. Eles são estudados por ação antibacteriana e antifúngica, e foram usados por séculos justamente para ajudar a conservar alimentos.
-- imagem_busca: oregano dried leaves macro texture herb
+- narracao: E ela está entre as folhas com mais nitratos naturais, aqueles que viram óxido nítrico e relaxam os vasos sanguíneos. É o mesmo mecanismo da beterraba, só que numa folha de salada.
+- imagem_busca: arugula salad bowl fresh greens
 
 ## Cena 04
-- narracao: E ele lidera listas de capacidade antioxidante por grama. A ressalva honesta é a mesma de todo tempero: você usa uma pitada, não uma porção. É um extra, não a base.
-- imagem_busca: oregano sprinkled on food herb
+- narracao: Fora isso, ela entrega vitamina K, importante para ossos e coagulação, cálcio de origem vegetal, folato e vitamina A. Tudo isso com praticamente zero caloria.
+- imagem_busca: arugula leaves plate green vegetables
 
 ## Cena 05
-- narracao: Na tradição mediterrânea ele é usado para ajudar na digestão de pratos pesados. E não é à toa que ele acompanha justamente massa, queijo e carne: os compostos aromáticos ajudam nesse processo.
-- imagem_busca: oregano sprinkled dish italian herb
+- narracao: E aqui vale um detalhe: a rúcula tem pouco oxalato, diferente do espinafre. Isso significa que o cálcio dela é bem mais aproveitado pelo corpo. É uma das folhas mais eficientes nesse ponto.
+- imagem_busca: arugula and spinach comparison greens
 
 ## Cena 06
-- narracao: O truque de uso: esfregue o orégano seco entre os dedos antes de jogar no prato. O atrito libera os óleos e o aroma triplica. É de graça e muda o resultado.
-- imagem_busca: hands rubbing dried herbs kitchen
+- narracao: Para domar o amargor: sirva bem gelada e combine com algo doce ou gorduroso. Tomate, pera, queijo, azeite e uma pitada de sal. O amargo não some, mas vira contraste.
+- imagem_busca: arugula salad with cheese and tomatoes
 
 ## Cena 07
-- narracao: E guarde longe do fogão. O calor e a luz degradam os óleos. Se o seu orégano já não tem cheiro quando você abre o pote, ele virou só folha seca.
-- imagem_busca: spice jars pantry storage kitchen
+- narracao: E ela murcha rápido. Guarde num pote com papel-toalha no fundo, sem lavar antes. Lavar e guardar molhada é o caminho mais curto para a folha derreter na geladeira.
+- imagem_busca: storing leafy greens container fridge
 
 ## Cena 08
-- narracao: Um aviso: óleo essencial de orégano é concentrado e não deve ser ingerido sem orientação. E ele pode afinar o sangue — quem usa anticoagulante deve falar com o médico antes de suplementos.
+- narracao: Um aviso: por ser rica em vitamina K, quem usa anticoagulante deve manter o consumo constante. E folha crua pede higienização caprichada antes de ir ao prato.
 - imagem_busca: doctor consultation patient talking
 - aviso_tela: Conteúdo informativo. Não substitui orientação médica.
 - curto: sim
 
 ## Cena 09
-- narracao: Esfrega entre os dedos, guarda longe do fogão, e não sente culpa de usar o seco — aqui ele é melhor mesmo.
-- imagem_busca: oregano jar kitchen counter herb spice
+- narracao: Da próxima vez que achar amarga demais: gela bem, junta com algo doce — é esse amargo que faz ela valer a pena.
+- imagem_busca: arugula fresh bunch market greens
 - curto: sim
