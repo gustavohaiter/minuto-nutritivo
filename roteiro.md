@@ -1,44 +1,44 @@
-# OS BENEFÍCIOS DA RÚCULA
+# OS BENEFÍCIOS DO PEPINO
 Tipo: educativo
-Miniatura: 1 | O AMARGO DA RÚCULA É O REMÉDIO
+Miniatura: 1 | VOCÊ DESCASCA A MELHOR PARTE DO PEPINO
 
 ## Cena 01
-- narracao: O amargo que faz torcer o nariz pra rúcula é justamente o motivo dela fazer bem. O sabor ruim é o remédio.
-- imagem_busca: arugula rocket leaves fresh salad greens
+- narracao: Tem gente que diz que pepino não tem nada, que é só água. Metade é verdade — a outra metade está na casca que quase todo mundo descasca fora.
+- imagem_busca: cucumber fresh whole vegetable table
 - curto: sim
 
 ## Cena 02
-- narracao: O amargor vem dos glucosinolatos, os mesmos compostos do brócolis e da mostarda — estudados por ativar as enzimas de desintoxicação do corpo.
-- imagem_busca: arugula leaves macro texture greens
-- curto: sim
+- narracao: Ele é cerca de 95% água, um dos alimentos mais hidratantes que existem. E essa água vem acompanhada de potássio, que ajuda no equilíbrio do sódio e na pressão arterial.
+- imagem_busca: cucumber slices water refreshing vegetable
 
 ## Cena 03
-- narracao: E ela está entre as folhas com mais nitratos naturais, aqueles que viram óxido nítrico e relaxam os vasos sanguíneos. É o mesmo mecanismo da beterraba, só que numa folha de salada.
-- imagem_busca: arugula salad bowl fresh greens
+- narracao: A casca verde escura concentra quase toda a fibra, a vitamina K e os antioxidantes da planta. Descascar o pepino é jogar fora a parte nutritiva e ficar só com a água.
+- imagem_busca: cucumber peel dark green skin close up
+- curto: sim
 
 ## Cena 04
-- narracao: Fora isso, ela entrega vitamina K, importante para ossos e coagulação, cálcio de origem vegetal, folato e vitamina A. Tudo isso com praticamente zero caloria.
-- imagem_busca: arugula leaves plate green vegetables
+- narracao: E ele tem pouquíssima caloria. É volume no prato, saciedade pela água e pela fibra, sem peso nenhum. Por isso funciona tão bem como lanche de tarde.
+- imagem_busca: cucumber sticks snack plate vegetable
 
 ## Cena 05
-- narracao: E aqui vale um detalhe: a rúcula tem pouco oxalato, diferente do espinafre. Isso significa que o cálcio dela é bem mais aproveitado pelo corpo. É uma das folhas mais eficientes nesse ponto.
-- imagem_busca: arugula and spinach comparison greens
+- narracao: E aquele amargor que às vezes aparece na pontinha? É a cucurbitacina, um composto de defesa natural da planta. Em pouca quantidade é inofensiva, mas se estiver muito amargo, melhor descartar aquela parte.
+- imagem_busca: cucumber tip cut close up vegetable
 
 ## Cena 06
-- narracao: Para domar o amargor: sirva bem gelada e combine com algo doce ou gorduroso. Tomate, pera, queijo, azeite e uma pitada de sal. O amargo não some, mas vira contraste.
-- imagem_busca: arugula salad with cheese and tomatoes
+- narracao: Para quem sente que pepino repete: tire as sementes com uma colher e salgue as fatias por uns 10 minutos antes de usar. Sai o excesso de água e fica bem mais leve de digerir.
+- imagem_busca: cucumber seeds removing spoon kitchen
 
 ## Cena 07
-- narracao: E ela murcha rápido. Guarde num pote com papel-toalha no fundo, sem lavar antes. Lavar e guardar molhada é o caminho mais curto para a folha derreter na geladeira.
-- imagem_busca: storing leafy greens container fridge
+- narracao: E não guarde na parte mais fria da geladeira. Pepino sofre com o frio excessivo e fica mole e aguado rápido. Prefira a gaveta e longe de frutas que amadurecem.
+- imagem_busca: cucumbers fridge vegetable drawer storage
 
 ## Cena 08
-- narracao: Um aviso: por ser rica em vitamina K, quem usa anticoagulante deve manter o consumo constante. E folha crua pede higienização caprichada antes de ir ao prato.
+- narracao: Um aviso: por ter vitamina K, quem usa anticoagulante deve manter o consumo constante. E como se come cru e com casca, capriche na higienização.
 - imagem_busca: doctor consultation patient talking
 - aviso_tela: Conteúdo informativo. Não substitui orientação médica.
 - curto: sim
 
 ## Cena 09
-- narracao: Da próxima vez que achar amarga demais: gela bem, junta com algo doce — é esse amargo que faz ela valer a pena.
-- imagem_busca: arugula fresh bunch market greens
+- narracao: Então: lava bem, não descasca, e tira as sementes se repetir. Simples assim, ele deixa de ser só água.
+- imagem_busca: cucumber salad fresh vegetable plate
 - curto: sim
