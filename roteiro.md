@@ -1,44 +1,44 @@
-# OS BENEFÍCIOS DO PEPINO
+# OS BENEFÍCIOS DA ALFACE
 Tipo: educativo
-Miniatura: 1 | VOCÊ DESCASCA A MELHOR PARTE DO PEPINO
+Miniatura: 3 | A ALFACE MAIS CLARA É A MENOS NUTRITIVA
 
 ## Cena 01
-- narracao: Tem gente que diz que pepino não tem nada, que é só água. Metade é verdade — a outra metade está na casca que quase todo mundo descasca fora.
-- imagem_busca: cucumber fresh whole vegetable table
+- narracao: Vou ser honesto: a alface é uma das folhas com menos nutriente da feira. Mesmo assim, ela merece estar no seu prato — deixa eu explicar.
+- imagem_busca: lettuce fresh green leaves vegetable
 - curto: sim
 
 ## Cena 02
-- narracao: Ele é cerca de 95% água, um dos alimentos mais hidratantes que existem. E essa água vem acompanhada de potássio, que ajuda no equilíbrio do sódio e na pressão arterial.
-- imagem_busca: cucumber slices water refreshing vegetable
+- narracao: O valor dela não está na concentração, está no volume. Ela é quase toda água e fibra, enche o prato e dá saciedade com quase zero caloria. É o que segura a fome antes do resto da refeição.
+- imagem_busca: lettuce salad bowl fresh greens
 
 ## Cena 03
-- narracao: A casca verde escura concentra quase toda a fibra, a vitamina K e os antioxidantes da planta. Descascar o pepino é jogar fora a parte nutritiva e ficar só com a água.
-- imagem_busca: cucumber peel dark green skin close up
+- narracao: Tem um detalhe que muda tudo: a cor. A americana, branquinha e crocante, é a mais pobre de todas. A roxa e a crespa escura têm várias vezes mais antioxidante.
+- imagem_busca: red and green lettuce varieties comparison
 - curto: sim
 
 ## Cena 04
-- narracao: E ele tem pouquíssima caloria. É volume no prato, saciedade pela água e pela fibra, sem peso nenhum. Por isso funciona tão bem como lanche de tarde.
-- imagem_busca: cucumber sticks snack plate vegetable
+- narracao: A regra é simples: quanto mais escura e mais roxa a folha, mais nutriente ela tem. Se for escolher uma só, nunca escolha a mais clara.
+- imagem_busca: dark purple lettuce leaves vegetable
 
 ## Cena 05
-- narracao: E aquele amargor que às vezes aparece na pontinha? É a cucurbitacina, um composto de defesa natural da planta. Em pouca quantidade é inofensiva, mas se estiver muito amargo, melhor descartar aquela parte.
-- imagem_busca: cucumber tip cut close up vegetable
+- narracao: E aquela história de que alface dá sono? Ela tem fundo: o látex branco do caule tem compostos com efeito sedativo leve. Só que a quantidade numa salada é mínima. O sono depois do almoço é da refeição inteira, não da folha.
+- imagem_busca: lettuce stem white latex cut vegetable
 
 ## Cena 06
-- narracao: Para quem sente que pepino repete: tire as sementes com uma colher e salgue as fatias por uns 10 minutos antes de usar. Sai o excesso de água e fica bem mais leve de digerir.
-- imagem_busca: cucumber seeds removing spoon kitchen
+- narracao: Alface murcha ficou sem água, não estragou. Mergulhe as folhas em água bem gelada por uns 20 minutos e elas voltam crocantes. Dá pra salvar quase todo pé que você ia jogar fora.
+- imagem_busca: lettuce leaves ice water bowl crisp
 
 ## Cena 07
-- narracao: E não guarde na parte mais fria da geladeira. Pepino sofre com o frio excessivo e fica mole e aguado rápido. Prefira a gaveta e longe de frutas que amadurecem.
-- imagem_busca: cucumbers fridge vegetable drawer storage
+- narracao: E para durar: guarde seca, num pote com papel-toalha no fundo, nunca espremida. E rasgue com a mão em vez de cortar com faca, que a lâmina oxida a borda e escurece mais rápido.
+- imagem_busca: storing lettuce container paper towel fridge
 
 ## Cena 08
-- narracao: Um aviso: por ter vitamina K, quem usa anticoagulante deve manter o consumo constante. E como se come cru e com casca, capriche na higienização.
+- narracao: Um aviso: as folhas escuras têm bastante vitamina K — quem usa anticoagulante deve manter o consumo constante. E alface crua exige higienização caprichada.
 - imagem_busca: doctor consultation patient talking
 - aviso_tela: Conteúdo informativo. Não substitui orientação médica.
 - curto: sim
 
 ## Cena 09
-- narracao: Então: lava bem, não descasca, e tira as sementes se repetir. Simples assim, ele deixa de ser só água.
-- imagem_busca: cucumber salad fresh vegetable plate
+- narracao: Escolhe a mais escura, rasga com a mão e revive na água gelada. Não é a mais nutritiva, mas é o prato cheio que te faz comer melhor.
+- imagem_busca: fresh lettuce salad plate green vegetable
 - curto: sim
