@@ -1,44 +1,44 @@
-# OS BENEFÍCIOS DA ALFACE
+# OS BENEFÍCIOS DA JACA
 Tipo: educativo
-Miniatura: 3 | A ALFACE MAIS CLARA É A MENOS NUTRITIVA
+Miniatura: 1 | A MESMA JACA VIRA SOBREMESA E SUBSTITUTO DE CARNE
 
 ## Cena 01
-- narracao: Vou ser honesto: a alface é uma das folhas com menos nutriente da feira. Mesmo assim, ela merece estar no seu prato — deixa eu explicar.
-- imagem_busca: lettuce fresh green leaves vegetable
+- narracao: É a maior fruta do mundo em árvore — e a mesma jaca, colhida em momentos diferentes, vira duas comidas completamente distintas.
+- imagem_busca: jackfruit whole tree tropical fruit
 - curto: sim
 
 ## Cena 02
-- narracao: O valor dela não está na concentração, está no volume. Ela é quase toda água e fibra, enche o prato e dá saciedade com quase zero caloria. É o que segura a fome antes do resto da refeição.
-- imagem_busca: lettuce salad bowl fresh greens
+- narracao: A jaca madura é doce, aromática e rica em carboidrato. Entrega vitamina C, vitamina A e potássio, além de bastante fibra. É energia de verdade, não é fruta leve.
+- imagem_busca: ripe jackfruit yellow bulbs tropical fruit
 
 ## Cena 03
-- narracao: Tem um detalhe que muda tudo: a cor. A americana, branquinha e crocante, é a mais pobre de todas. A roxa e a crespa escura têm várias vezes mais antioxidante.
-- imagem_busca: red and green lettuce varieties comparison
+- narracao: A jaca verde desfia igual carne desfiada, tem sabor neutro e pouquíssimo açúcar — por isso virou febre como substituto de carne em pratos veganos.
+- imagem_busca: green jackfruit shredded pulled cooking
 - curto: sim
 
 ## Cena 04
-- narracao: A regra é simples: quanto mais escura e mais roxa a folha, mais nutriente ela tem. Se for escolher uma só, nunca escolha a mais clara.
-- imagem_busca: dark purple lettuce leaves vegetable
+- narracao: Mas vale um alerta honesto aqui: ela imita a textura da carne, não o valor nutricional. A jaca verde tem pouquíssima proteína. Se for usar como substituto, precisa complementar com outra fonte no prato.
+- imagem_busca: plant based meal beans protein plate
 
 ## Cena 05
-- narracao: E aquela história de que alface dá sono? Ela tem fundo: o látex branco do caule tem compostos com efeito sedativo leve. Só que a quantidade numa salada é mínima. O sono depois do almoço é da refeição inteira, não da folha.
-- imagem_busca: lettuce stem white latex cut vegetable
+- narracao: E tem a parte que quase todo mundo joga fora: as sementes. Cozidas, elas têm gosto parecido com castanha e são ricas em amido resistente e proteína. É comida de verdade, não lixo.
+- imagem_busca: jackfruit seeds cooked tropical food
 
 ## Cena 06
-- narracao: Alface murcha ficou sem água, não estragou. Mergulhe as folhas em água bem gelada por uns 20 minutos e elas voltam crocantes. Dá pra salvar quase todo pé que você ia jogar fora.
-- imagem_busca: lettuce leaves ice water bowl crisp
+- narracao: Para lidar com o látex grudento na hora de abrir: passe óleo nas mãos e na faca antes. É o único jeito que funciona de verdade, e evita aquela melação que não sai com água.
+- imagem_busca: cutting jackfruit knife oil hands tropical
 
 ## Cena 07
-- narracao: E para durar: guarde seca, num pote com papel-toalha no fundo, nunca espremida. E rasgue com a mão em vez de cortar com faca, que a lâmina oxida a borda e escurece mais rápido.
-- imagem_busca: storing lettuce container paper towel fridge
+- narracao: E vale dizer: a jaca é uma das frutas mais desperdiçadas do Brasil. Ela dá em quantidade absurda, apodrece no chão em cidade inteira, enquanto é vendida cara como superalimento lá fora.
+- imagem_busca: jackfruit tree abundance brazil tropical
 
 ## Cena 08
-- narracao: Um aviso: as folhas escuras têm bastante vitamina K — quem usa anticoagulante deve manter o consumo constante. E alface crua exige higienização caprichada.
+- narracao: Dois avisos: a madura é calórica e doce — quem controla açúcar deve observar a porção. E quem tem alergia a látex ou pólen de bétula pode reagir à jaca.
 - imagem_busca: doctor consultation patient talking
 - aviso_tela: Conteúdo informativo. Não substitui orientação médica.
 - curto: sim
 
 ## Cena 09
-- narracao: Escolhe a mais escura, rasga com a mão e revive na água gelada. Não é a mais nutritiva, mas é o prato cheio que te faz comer melhor.
-- imagem_busca: fresh lettuce salad plate green vegetable
+- narracao: Madura é sobremesa, verde é prato principal, semente é castanha — três comidas numa fruta só, crescendo de graça por aí.
+- imagem_busca: jackfruit bulbs plate tropical fruit
 - curto: sim
