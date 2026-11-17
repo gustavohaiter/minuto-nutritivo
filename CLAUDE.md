@@ -57,6 +57,15 @@
     mudado é desperdício puro de créditos (foi o que estourou a cota num vídeo em
     que só a imagem da cena 3 precisava ser refeita). `--forcar-narracao` existe
     separado, só pra quando realmente for preciso regenerar áudio com o texto igual.
+  - **Formato de fruta confundível com outro objeto/fruta no nome em inglês**
+    (ex.: "pear" sozinho também devolve maçã verde e objetos em formato de
+    pera) — sempre uso o nome do alimento + "fruit" + uma palavra que
+    descreva o formato característico dele (ex.: "pear shape" pra pera) ou
+    a variedade (ex.: "bartlett pear", "williams pear", "anjou pear"), nunca
+    o nome sozinho. Na folha de contato, confiro visualmente o formato
+    característico da fruta antes de aprovar — se a silhueta não bater
+    (ex.: pera redonda em vez de alongada com "pescoço"), é imagem errada,
+    descarto.
   - **Alimento regional/pouco conhecido fora do Brasil (ex.: jabuticaba,
     caju, açaí, cupuaçu)**: o banco de imagens tem pouco acervo e às vezes
     devolve fruta parecida errada (jabuticaba -> uva ou mirtilo). Sempre
