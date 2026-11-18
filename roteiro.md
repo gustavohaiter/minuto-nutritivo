@@ -1,44 +1,44 @@
-# OS BENEFÍCIOS DA PERA
+# OS BENEFÍCIOS DO QUIABO
 Tipo: educativo
-Miniatura: 1 | A FRUTA MENOS ALERGÊNICA DO MUNDO
+Miniatura: 1 | A BABA DO QUIABO É O MELHOR DELE
 
 ## Cena 01
-- narracao: Ela é a fruta que os médicos mandam comer quando o estômago está sensível — e tem um motivo específico que quase nenhuma outra fruta tem.
-- imagem_busca: ripe pears fruit wooden table pear shape
+- narracao: A baba do quiabo é o motivo pelo qual metade do Brasil não come ele — e é justamente ela a parte mais estudada do alimento.
+- imagem_busca: okra pods fresh green vegetable
 - curto: sim
 
 ## Cena 02
-- narracao: A pera é uma das frutas com mais fibra por unidade. Uma pera média entrega mais fibra que uma maçã, e boa parte dela é solúvel, do tipo que vira gel e regula o intestino sem irritar.
-- imagem_busca: pear sliced half fruit close up pear shape
-
-## Cena 03
-- narracao: O motivo: a pera está entre as frutas menos alergênicas que existem. É uma das primeiras liberadas na introdução alimentar de bebês e das mais toleradas por estômago sensível.
-- imagem_busca: baby food pear puree fruit
+- narracao: Aquela textura viscosa tem nome: mucilagem, uma fibra solúvel que forma gel no intestino e ajuda a regular a absorção de açúcar. A baba é fibra funcionando.
+- imagem_busca: okra cut mucilage close up vegetable
 - curto: sim
 
+## Cena 03
+- narracao: Por isso o quiabo aparece em vários estudos sobre controle glicêmico. O gel desacelera a passagem do açúcar para o sangue. Não substitui tratamento nenhum, mas o mecanismo é real.
+- imagem_busca: okra dish cooking brazilian vegetable
+
 ## Cena 04
-- narracao: Como quase sempre: não descasque. A casca concentra boa parte da fibra e dos antioxidantes, principalmente nas peras de casca mais avermelhada.
-- imagem_busca: pear skin peel close up fruit red
+- narracao: Fora isso, ele entrega vitamina K, folato, vitamina C e magnésio, com pouquíssima caloria. É um dos vegetais mais completos da feira e um dos mais baratos.
+- imagem_busca: okra pods market stall vegetable
 
 ## Cena 05
-- narracao: Ela é doce, mas o açúcar principal dela é a frutose, acompanhada de muita fibra, o que suaviza o impacto na glicose. Ainda assim, quem controla açúcar deve atentar à porção.
-- imagem_busca: pears bowl fresh fruit pear shape
+- narracao: Agora, se você não quer a baba no prato: o segredo é não deixar o quiabo encostar em água antes de cortar. Lave e seque bem, corte seco, e refogue em fogo alto sem mexer muito no começo.
+- imagem_busca: okra sauteed pan high heat cooking
 
 ## Cena 06
-- narracao: E tem uma particularidade: a pera não amadurece bem no pé, ela é colhida firme e amadurece fora. Por isso quase toda pera de mercado chega dura.
-- imagem_busca: pears ripening counter kitchen fruit pear shape
+- narracao: E tem o truque clássico: um fio de limão ou vinagre no refogado corta a viscosidade. Funciona mesmo. Só lembre que você está tirando justamente a fibra que faz bem, então é uma troca.
+- imagem_busca: okra pan cooking vegetable
 
 ## Cena 07
-- narracao: E o teste pra saber o ponto não é apertar a barriga dela, que machuca a fruta. Aperte de leve perto do cabinho, no alto. Se ceder ali, está pronta.
-- imagem_busca: checking pear ripeness neck stem fruit
+- narracao: Na hora de comprar: prefira os pequenos e médios. Quiabo grande demais fica fibroso e duro. Dobre a pontinha: se quebrar fácil, está novo; se entortar, está velho.
+- imagem_busca: choosing okra market fresh vegetable
 
 ## Cena 08
-- narracao: Um aviso: por ter frutose e sorbitol, ela pode causar gases e desconforto em quem tem intestino irritável. Converse com o médico se for o seu caso.
+- narracao: Dois avisos: ele é rico em oxalato — quem tem histórico de pedra nos rins deve moderar. E por ter vitamina K, quem usa anticoagulante precisa de consumo constante.
 - imagem_busca: doctor consultation patient talking
 - aviso_tela: Conteúdo informativo. Não substitui orientação médica.
 - curto: sim
 
 ## Cena 09
-- narracao: Compra dura, deixa fora da geladeira, aperta o pescoço pra testar e come com casca. É a mais gentil das frutas.
-- imagem_busca: pears fresh fruit basket pear shape
+- narracao: Da próxima vez: corta seco, fogo alto, e se puder aguentar um pouco da baba, melhor ainda — ela é o melhor do quiabo.
+- imagem_busca: okra brazilian dish plate vegetable
 - curto: sim
