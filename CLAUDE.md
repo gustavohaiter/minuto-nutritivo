@@ -57,6 +57,15 @@
     mudado é desperdício puro de créditos (foi o que estourou a cota num vídeo em
     que só a imagem da cena 3 precisava ser refeita). `--forcar-narracao` existe
     separado, só pra quando realmente for preciso regenerar áudio com o texto igual.
+  - **Um nome em português cobrindo DUAS frutas diferentes** (ex.: "amora"
+    no Brasil é tanto a mulberry — da amoreira, alongada — quanto a
+    blackberry — silvestre, arredondada, a que o mercado vende; não são
+    parentes próximas). Nunca uso "amora"/"berry" genérico: busco
+    "mulberry" ou "blackberry" especificamente, conforme qual das duas a
+    cena está retratando, e numa cena de comparação uso as duas juntas de
+    propósito. Mesmo cuidado de toda fruta "dupla" por nome: identifico as
+    duas espécies reais por trás do nome popular antes de fechar os termos
+    de busca cena por cena.
   - **Formato de fruta confundível com outro objeto/fruta no nome em inglês**
     (ex.: "pear" sozinho também devolve maçã verde e objetos em formato de
     pera) — sempre uso o nome do alimento + "fruit" + uma palavra que
