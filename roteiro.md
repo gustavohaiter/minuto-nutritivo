@@ -1,44 +1,44 @@
-# OS BENEFÍCIOS DA AMORA
+# OS BENEFÍCIOS DO BRÓCOLIS
 Tipo: educativo
-Miniatura: 1 | AS DUAS AMORAS NÃO SÃO PARENTES
+Miniatura: 1 | VOCÊ COZINHA O BRÓCOLIS DO JEITO ERRADO
 
 ## Cena 01
-- narracao: Existem duas frutas diferentes que o brasileiro chama de amora — uma do quintal, outra da bandejinha do mercado. Nem são parentes próximas.
-- imagem_busca: mulberry and blackberry fruits comparison
+- narracao: Existe um jeito de cozinhar brócolis que destrói quase tudo de bom nele — é o que a maioria faz: jogar direto na panela com água.
+- imagem_busca: broccoli fresh head green vegetable
 - curto: sim
 
 ## Cena 02
-- narracao: A da amoreira é alongada, docinha, mancha a mão inteira. A silvestre, do mercado, é arredondada e levemente ácida. As duas fazem bem, mas são plantas distintas.
-- imagem_busca: mulberry tree fruit branch
-- curto: sim
+- narracao: O composto mais estudado dele é o sulforafano, pesquisado por ação antioxidante e por ativar as enzimas de defesa do próprio corpo. Mas ele não existe pronto no brócolis.
+- imagem_busca: broccoli florets close up green vegetable
 
 ## Cena 03
-- narracao: O que elas têm em comum é aquele roxo quase preto, que vem das antocianinas. São dos antioxidantes mais estudados, ligados à proteção dos vasos sanguíneos e à saúde do cérebro com o passar dos anos.
-- imagem_busca: blackberries dark purple close up fruit
+- narracao: O composto bom só se forma quando você corta o brócolis — reação que leva minutos. Jogar direto no fogo interrompe tudo. Corte e espere uns 5 minutos antes de cozinhar.
+- imagem_busca: chopping broccoli cutting board kitchen
+- curto: sim
 
 ## Cena 04
-- narracao: E elas são surpreendentemente ricas em fibra. A silvestre, principalmente: por causa das sementinhas, é uma das frutas com mais fibra por porção que existe.
-- imagem_busca: blackberries bowl fresh berries fruit
+- narracao: E nada de fervura longa. Os compostos vão embora na água e são sensíveis ao calor prolongado. No vapor por poucos minutos, ou refogado rápido, preserva muito mais. Se ficou mole e amarelado, passou.
+- imagem_busca: steaming broccoli pot vegetable cooking
 
 ## Cena 05
-- narracao: E com pouco açúcar para o tanto de sabor. É das frutas mais indicadas para quem quer doçura sem peso, junto com o morango.
-- imagem_busca: blackberries plate healthy fruit
+- narracao: Fora isso, ele entrega vitamina C em boa quantidade, vitamina K, folato e fibra. Com pouquíssima caloria e bastante volume no prato.
+- imagem_busca: broccoli plate healthy meal vegetable
 
 ## Cena 06
-- narracao: E tem a parte que quase ninguém sabe: a folha da amoreira é usada em chá há séculos na Ásia, e é estudada por compostos que interferem na absorção de açúcar. Mas isso é chá, não é a fruta, e exige orientação.
-- imagem_busca: mulberry leaves tea plant
+- narracao: E para de jogar o talo fora. Ele tem praticamente os mesmos nutrientes da flor, às vezes mais fibra. Descasque a casquinha dura e fatie fino: fica doce e crocante, ótimo refogado ou cru na salada.
+- imagem_busca: broccoli stem sliced vegetable kitchen
 
 ## Cena 07
-- narracao: Elas estragam muito rápido. Nunca lave antes de guardar e deixe num pote forrado com papel, em camada única. E congelam muito bem: espalhe numa bandeja antes, depois junte no saquinho.
-- imagem_busca: freezing berries tray kitchen fruit
+- narracao: E aqui a gente come dois tipos: o ninja, de cabeça única e compacta, e o ramoso, de talo fino e folha, mais comum e mais barato. Nutricionalmente são muito parecidos, então vá pelo preço.
+- imagem_busca: broccoli varieties comparison vegetable market
 
 ## Cena 08
-- narracao: Um aviso: chá de folha de amoreira pode interferir em remédio pra açúcar no sangue — quem usa precisa falar com o médico. A fruta em si é segura pra maioria.
+- narracao: Dois avisos: por ter vitamina K, quem usa anticoagulante deve manter o consumo constante. E em grande quantidade pode interferir na tireoide de quem já tem alteração.
 - imagem_busca: doctor consultation patient talking
 - aviso_tela: Conteúdo informativo. Não substitui orientação médica.
 - curto: sim
 
 ## Cena 09
-- narracao: As duas valem, congela sem medo, e se tiver amora no quintal, você tem uma das frutas mais ricas em antioxidante do mundo de graça.
-- imagem_busca: mulberry tree backyard harvest fruit
+- narracao: Corta, espera cinco minutos, cozinha rápido no vapor e usa o talo — quatro mudanças simples que transformam o mesmo brócolis.
+- imagem_busca: broccoli dish green vegetable plate
 - curto: sim
