@@ -1,44 +1,44 @@
-# OS BENEFÍCIOS DO BRÓCOLIS
+# OS BENEFÍCIOS DA COUVE-FLOR
 Tipo: educativo
-Miniatura: 1 | VOCÊ COZINHA O BRÓCOLIS DO JEITO ERRADO
+Miniatura: 1 | BRÓCOLIS E COUVE-FLOR SÃO A MESMA PLANTA
 
 ## Cena 01
-- narracao: Existe um jeito de cozinhar brócolis que destrói quase tudo de bom nele — é o que a maioria faz: jogar direto na panela com água.
-- imagem_busca: broccoli fresh head green vegetable
+- narracao: Brócolis, couve-flor, repolho, couve e couve-de-bruxelas são todos a mesma espécie de planta — a diferença é só qual parte o ser humano resolveu fazer crescer.
+- imagem_busca: cauliflower whole head white vegetable
 - curto: sim
 
 ## Cena 02
-- narracao: O composto mais estudado dele é o sulforafano, pesquisado por ação antioxidante e por ativar as enzimas de defesa do próprio corpo. Mas ele não existe pronto no brócolis.
-- imagem_busca: broccoli florets close up green vegetable
-
-## Cena 03
-- narracao: O composto bom só se forma quando você corta o brócolis — reação que leva minutos. Jogar direto no fogo interrompe tudo. Corte e espere uns 5 minutos antes de cozinhar.
-- imagem_busca: chopping broccoli cutting board kitchen
+- narracao: A couve-flor é a flor que nunca abriu. O que você come são milhares de botões florais travados no meio do desenvolvimento — por isso a textura é tão densa.
+- imagem_busca: cauliflower florets close up white vegetable
 - curto: sim
 
+## Cena 03
+- narracao: E por que ela é branca, se é da mesma família das verdes? Porque as folhas crescem por cima e tapam a cabeça do sol, impedindo a clorofila de se formar. É sombra, não é falta de nutriente.
+- imagem_busca: cauliflower plant leaves field vegetable
+
 ## Cena 04
-- narracao: E nada de fervura longa. Os compostos vão embora na água e são sensíveis ao calor prolongado. No vapor por poucos minutos, ou refogado rápido, preserva muito mais. Se ficou mole e amarelado, passou.
-- imagem_busca: steaming broccoli pot vegetable cooking
+- narracao: E ela entrega bastante: vitamina C em boa quantidade, vitamina K, folato, colina e fibra. Tudo isso com pouquíssimo carboidrato, bem menos que batata ou arroz.
+- imagem_busca: cauliflower dish plate healthy vegetable
 
 ## Cena 05
-- narracao: Fora isso, ele entrega vitamina C em boa quantidade, vitamina K, folato e fibra. Com pouquíssima caloria e bastante volume no prato.
-- imagem_busca: broccoli plate healthy meal vegetable
+- narracao: É justamente por isso que ela virou substituto de arroz, de purê e até de massa de pizza. Funciona pela textura e pelo baixo carboidrato. Mas honestidade: ela não tem a proteína nem a energia do que substitui, é uma troca de volume.
+- imagem_busca: cauliflower rice bowl vegetable
 
 ## Cena 06
-- narracao: E para de jogar o talo fora. Ele tem praticamente os mesmos nutrientes da flor, às vezes mais fibra. Descasque a casquinha dura e fatie fino: fica doce e crocante, ótimo refogado ou cru na salada.
-- imagem_busca: broccoli stem sliced vegetable kitchen
+- narracao: O segredo do sabor: assada, não cozida. Na água ela fica aguada e com cheiro forte de enxofre. No forno, em pedaços grandes com azeite e sal, ela caramela e fica doce. É outro alimento.
+- imagem_busca: roasted cauliflower oven golden vegetable
 
 ## Cena 07
-- narracao: E aqui a gente come dois tipos: o ninja, de cabeça única e compacta, e o ramoso, de talo fino e folha, mais comum e mais barato. Nutricionalmente são muito parecidos, então vá pelo preço.
-- imagem_busca: broccoli varieties comparison vegetable market
+- narracao: E não jogue as folhas fora. Elas são comestíveis, nutritivas e ficam ótimas assadas junto, igual chips. A gente costuma jogar fora metade do vegetal sem perceber.
+- imagem_busca: cauliflower leaves roasted vegetable
 
 ## Cena 08
-- narracao: Dois avisos: por ter vitamina K, quem usa anticoagulante deve manter o consumo constante. E em grande quantidade pode interferir na tireoide de quem já tem alteração.
+- narracao: Dois avisos: ela pode causar gases em intestino sensível. E, como toda crucífera, em grande quantidade pode interferir na tireoide de quem já tem alteração.
 - imagem_busca: doctor consultation patient talking
 - aviso_tela: Conteúdo informativo. Não substitui orientação médica.
 - curto: sim
 
 ## Cena 09
-- narracao: Corta, espera cinco minutos, cozinha rápido no vapor e usa o talo — quatro mudanças simples que transformam o mesmo brócolis.
-- imagem_busca: broccoli dish green vegetable plate
+- narracao: Então: manda pro forno, usa as folhas, e lembra que você está comendo uma flor que nunca chegou a abrir.
+- imagem_busca: cauliflower roasted plate vegetable meal
 - curto: sim
