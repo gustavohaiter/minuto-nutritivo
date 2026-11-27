@@ -1,44 +1,44 @@
-# OS BENEFÍCIOS DO GENGIBRE
+# OS BENEFÍCIOS DA BERINJELA
 Tipo: educativo
-Miniatura: 1 | GENGIBRE FRESCO E EM PÓ NÃO FAZEM A MESMA COISA
+Miniatura: 1 | A VERDADE SOBRE A BERINJELA EMAGRECER
 
 ## Cena 01
-- narracao: O gengibre fresco e o gengibre seco em pó não fazem a mesma coisa no corpo — o calor e a secagem mudam o composto principal dele, e com isso muda o efeito.
-- imagem_busca: ginger root fresh and powder spice
+- narracao: A berinjela virou fama de emagrecedora, de remédio natural pra colesterol. Vou contar o que ela realmente faz, e o que é exagero.
+- imagem_busca: eggplant aubergine purple vegetable
 - curto: sim
 
 ## Cena 02
-- narracao: No gengibre fresco, o destaque é o gingerol, responsável pela ardência e pela maior parte da ação anti-inflamatória estudada.
-- imagem_busca: fresh ginger root sliced spice
-- curto: sim
+- narracao: O que ela tem de mais interessante está na casca: a nasunina, o pigmento que dá aquele roxo profundo. É um antioxidante estudado principalmente pela proteção das membranas das células. Descascar é perder o melhor.
+- imagem_busca: eggplant purple skin close up vegetable
 
 ## Cena 03
-- narracao: Com o calor e a secagem, parte do gingerol vira shogaol, que arde ainda mais e tem perfil próprio. Por isso o gengibre em pó é mais picante e o chá fervido tem efeito um pouco diferente do gengibre cru.
-- imagem_busca: ginger powder spice bowl dried
+- narracao: Ela também tem bastante fibra e muita água, com pouquíssima caloria. Isso dá saciedade e volume no prato. É daí que vem a fama de ajudar na dieta, e essa parte é verdade.
+- imagem_busca: eggplant slices grilled vegetable plate
 
 ## Cena 04
-- narracao: E o uso mais bem documentado dele é esse: alívio de enjoo e náusea. Funciona em enjoo de viagem e é uma das poucas opções estudadas para o enjoo da gravidez, sempre com orientação médica.
-- imagem_busca: ginger tea cup hot drink
+- narracao: Água de berinjela não derrete gordura nem substitui tratamento pra colesterol. O efeito real é pequeno — ela ajuda, mas não faz milagre.
+- imagem_busca: eggplant water glass preparation
+- curto: sim
 
 ## Cena 05
-- narracao: Há também estudos ligando o consumo regular ao alívio de dor muscular depois do exercício e de desconforto articular. Efeito modesto, mas consistente.
-- imagem_busca: ginger root wooden table spice
+- narracao: E tem um detalhe que atrapalha muita gente: a berinjela é uma esponja. Ela absorve óleo de um jeito impressionante. Frita, ela deixa de ser leve e vira uma das coisas mais gordurosas do prato.
+- imagem_busca: eggplant absorbing oil frying pan
 
 ## Cena 06
-- narracao: Não descasque com faca, que você perde muito. Raspe a casca com uma colher, que ela sai fácil contornando os nós. E congele a raiz inteira: ralada congelada, rende mais e dura meses.
-- imagem_busca: peeling ginger spoon kitchen spice
+- narracao: A solução: salgue as fatias e deixe descansar uns 30 minutos antes de cozinhar. Sai água, a estrutura fecha e ela absorve muito menos óleo. Depois é só enxugar e assar ou grelhar.
+- imagem_busca: salting eggplant slices kitchen preparation
 
 ## Cena 07
-- narracao: E para o chá: não deixe ferver muito tempo. Água fervente desligada, gengibre em fatias, tampa por uns 10 minutos. Fervura longa evapora os óleos aromáticos.
-- imagem_busca: ginger tea steeping pot kitchen
+- narracao: Esse mesmo truque tira o amargor. E, na hora de comprar, prefira as firmes e pesadas, com a casca brilhante. Murcha e opaca é berinjela velha, e é a que mais amarga.
+- imagem_busca: choosing eggplant market fresh vegetable
 
 ## Cena 08
-- narracao: Dois avisos: em doses altas, principalmente de suplemento, ele pode afinar o sangue — quem usa anticoagulante ou vai operar deve falar com o médico. E costuma incomodar quem tem refluxo ou gastrite.
+- narracao: Um aviso: ela é da família do tomate e pimentão, e alguns têm sensibilidade digestiva a esse grupo. Nunca coma crua — precisa ser cozida.
 - imagem_busca: doctor consultation patient talking
 - aviso_tela: Conteúdo informativo. Não substitui orientação médica.
 - curto: sim
 
 ## Cena 09
-- narracao: Então: fresco para o dia a dia, raspa com a colher, congela o resto e não ferve o chá. Simples assim.
-- imagem_busca: ginger root kitchen counter spice
+- narracao: Então: não descasca, salga antes, e assa em vez de fritar. Ela é boa de verdade, só não é milagre.
+- imagem_busca: roasted eggplant dish plate vegetable
 - curto: sim
